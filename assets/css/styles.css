@@ -1,3 +1,36 @@
+
+
+
 #logo {
     background: transparent;
 }
+
+#nav {
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
+
+#nav li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+
+#logo {
+        display: flex;
+        align-items: center;
+        background-color: brown;
+        width: 150px;
+    }
+    
+#logo a {
+        text-decoration: none; /* Remove underline for the anchor */
+        color: inherit; /* Inherit the parent's color */
+    }
+    
+#logo img {
+        width: 40px; /* Adjust the width as needed */
+        height: auto; /* Preserve aspect ratio */
+        margin-right: 10px; /* Add margin between the image and text */
+    }
