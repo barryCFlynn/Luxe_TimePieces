@@ -37,3 +37,8 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+
+Luxe TimePieces
+
+logo: https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/
