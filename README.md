@@ -41,4 +41,7 @@ Happy coding!
 
 Luxe TimePieces
 
-logo: https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/
+
+credits
+
+i got the logo from this free source on pinterest: https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/
