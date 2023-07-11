@@ -1,23 +1,48 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+header {
+    height: 200px
+}
+
+footer {
+    height: 200px;
+}
+
+#logo #nav {
+    line-height: 100px;
+}
 
 #nav {
         font-size: 110%;
         letter-spacing: 4px;
-        line-height: 75px;
     }
 
 #nav li {
-        float: right;
+
         list-style-type: none;
         margin-right: 30px;
         margin-top: 15%;
+        float: right;
     }
 
+.actve {
+    border-bottom: 1px solid #3a3a3a;
+}
 
 #logo {
 
         display: flex;
-        width: 30%;
+        width: 300px;
         background: transparent;
         float: left;
     }
