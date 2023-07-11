@@ -9,13 +9,28 @@
     border: none;
 }
 
+body {
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+h1,
+h2 {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
 
 header {
-    height: 200px
+    height: 200px;
+    background-color: #3a3a3a;
 }
 
 footer {
     height: 200px;
+    background-color: #3a3a3a;
 }
 
 #logo #nav {
@@ -65,4 +80,28 @@ footer {
     display: flex;
     flex-direction: row;
     background-size: cover;
+}
+
+#hero-text {
+    font-size: 130%;
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 3px;
+
+    width: 400px;
+    height: 150px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    background-color: rgba(245, 184, 120, .7);
+
+    bottom: 30px;
+    right: 80px;
+    position: absolute;
+    text-align: center;
+
+}
+
+#hero-text {
+    color: #fff
 }
