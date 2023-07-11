@@ -3,28 +3,41 @@
 #nav {
         font-size: 110%;
         letter-spacing: 4px;
+        line-height: 75px;
     }
 
 #nav li {
         float: right;
         list-style-type: none;
         margin-right: 30px;
+        margin-top: 15%;
     }
 
 
 #logo {
+
         display: flex;
-        width:100px;
+        width: 30%;
         background: transparent;
+        float: left;
     }
     
 #logo a {
         text-decoration: none; /* Remove underline for the anchor */
-        color: inherit; /* Inherit the parent's color */
     }
     
-#logo img {
-        /* width: 40px; Adjust the width as needed */
-        height: auto; /* Preserve aspect ratio */
-        margin-right: 10px; /* Add margin between the image and text */
-    }
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero1-unsplash.jpg') no-repeat center center;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+}

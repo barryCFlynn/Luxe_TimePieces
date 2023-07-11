@@ -45,3 +45,7 @@ Luxe TimePieces
 credits
 
 i got the logo from this free source on pinterest: https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/
+
+images
+
+hero1 - https://unsplash.com/photos/4CsUasi5H-Y
