@@ -1,10 +1,5 @@
 
 
-
-#logo {
-    background: transparent;
-}
-
 #nav {
         font-size: 110%;
         letter-spacing: 4px;
@@ -19,9 +14,8 @@
 
 #logo {
         display: flex;
-        align-items: center;
-        background-color: brown;
-        width: 150px;
+        width:100px;
+        background: transparent;
     }
     
 #logo a {
@@ -30,7 +24,7 @@
     }
     
 #logo img {
-        width: 40px; /* Adjust the width as needed */
+        /* width: 40px; Adjust the width as needed */
         height: auto; /* Preserve aspect ratio */
         margin-right: 10px; /* Add margin between the image and text */
     }
