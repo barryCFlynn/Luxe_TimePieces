@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@500&display=swap')
 
 
 
@@ -10,19 +10,17 @@
 }
 
 body {
-    font-family: Merriweather, sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 300;
-    color: #3a3a3a;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #323f4e;
 }
 
-h1,
-h2 {
-    font-family: Raleway, sans-serif;
+h1 {
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     
@@ -35,29 +33,23 @@ header {
 }
 
 footer {
-    height: 200px;
+    height: 300px;
     background-color: #323f4e;
 }
 
 
-/* /* #nav ul {                        will line horizontal
-
-        margin-right: 0;
-        padding: 0;
-        display: flex;
-} */
-
-#nav ul li {
-    letter-spacing: 4px;
-    font-size: 110%;
-    margin-right: 10px;
-    list-style-type: none;
-    color: #323f4e;
-    padding-top: 15px;
+ #nav ul {                        
+    margin-right: 0;
+    padding: 0;
+    display: flex;
 }
 
-#nav ul li:last-child {
-    margin-right: 0;
+#nav li {
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type: none;
+    
+    padding-right: 100px;
 }
 
 .actve {
@@ -86,19 +78,30 @@ footer {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero1-unsplash.jpg') no-repeat center center;
-    display: flex;
+    background-image: url(../images/hero1-unsplash.jpg), url(../images/hero2-unsplash.jpg), url(../images/hero3-unsplash.jpg); /*no-repeat center center */
+    /* display: flex;
     flex-direction: row;
-    background-size: cover;
+    background-size: cover; */
+    background-repeat: repeat-x;
+    animation: scrollBackground 15s linear infinite;
+}
+
+@keyframes scrollBackground {
+    0% {
+        background-position: 0 0, 0 0, 0 0; /* Add initial background positions for each image */
+      }
+      100% {
+        background-position: 0 -2000px, 0 -1500px, 0 -1000px; /* Adjust the values to control scrolling speed and distance for each image */
+      }
 }
 
 #hero-text {
-    font-size: 130%;
+    /* font-size: 130%; */
     font-family: Merriweather, sans-serif;
     letter-spacing: 3px;
 
-    width: 400px;
-    height: 150px;
+    /* width: 400px;
+    height: 150px; */
 
     padding-top: 30px;
     padding-left: 10px;
