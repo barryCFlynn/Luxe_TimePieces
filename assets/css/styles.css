@@ -15,6 +15,11 @@ body {
     color: #3a3a3a;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1,
 h2 {
     font-family: Raleway, sans-serif;
@@ -24,31 +29,36 @@ h2 {
 }
 
 header {
-    height: 200px;
-    background-color: #3a3a3a;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 footer {
     height: 200px;
-    background-color: #3a3a3a;
+    background-color: #323f4e;
 }
 
-#logo #nav {
-    line-height: 100px;
+
+/* /* #nav ul {                        will line horizontal
+
+        margin-right: 0;
+        padding: 0;
+        display: flex;
+} */
+
+#nav ul li {
+    letter-spacing: 4px;
+    font-size: 110%;
+    margin-right: 10px;
+    list-style-type: none;
+    color: #323f4e;
+    padding-top: 15px;
 }
 
-#nav {
-        font-size: 110%;
-        letter-spacing: 4px;
-    }
-
-#nav li {
-
-        list-style-type: none;
-        margin-right: 30px;
-        margin-top: 15%;
-        float: right;
-    }
+#nav ul li:last-child {
+    margin-right: 0;
+}
 
 .actve {
     border-bottom: 1px solid #3a3a3a;
@@ -99,9 +109,5 @@ footer {
     right: 80px;
     position: absolute;
     text-align: center;
-
-}
-
-#hero-text {
-    color: #fff
+    color: #fff;
 }
