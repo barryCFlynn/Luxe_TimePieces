@@ -77,21 +77,21 @@ footer {
 
 #hero-image {
     height: 600px;
-    width: 100%;
-    background-image: url(../images/hero1-unsplash.jpg), url(../images/hero2-unsplash.jpg), url(../images/hero3-unsplash.jpg); /*no-repeat center center */
+    width: 100%; 
+    background-image: url(../images/hero-unsplash-sprite1.jpg) /*, url(../images/hero2-unsplash-Large.jpg), url(../images/hero3-unsplash-Large.jpg)*/; /*no-repeat center center */
     /* display: flex;
     flex-direction: row;
     background-size: cover; */
-    background-repeat: repeat-x;
-    animation: scrollBackground 15s linear infinite;
+    background-repeat: repeat-y;
+    animation: scrollBackground 10s linear infinite reverse;
 }
 
 @keyframes scrollBackground {
     0% {
-        background-position: 0 0, 0 0, 0 0; /* Add initial background positions for each image */
+        background-position: 0 0; /*, 0 0, 0 0;  Add initial background positions for each image */
       }
       100% {
-        background-position: 0 -2000px, 0 -1500px, 0 -1000px; /* Adjust the values to control scrolling speed and distance for each image */
+        background-position: 0 -2000px; /*, 0 -1500px, 0 -1000px;  Adjust the values to control scrolling speed and distance for each image */
       }
 }
 
