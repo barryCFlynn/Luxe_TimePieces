@@ -3,11 +3,11 @@
 
 
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: none;
-}
+} */
 
 body {
     font-family: 'Merriweather', serif;
@@ -53,7 +53,7 @@ footer {
 }
 
 .actve {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #323f4e;
 }
 
 #logo {
@@ -69,19 +69,19 @@ footer {
     }
     
 #hero-outer {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 600px;
+    height: 800px;
     width: 100%; 
     background-image: url(../images/hero-unsplash-sprite1.jpg) /*, url(../images/hero2-unsplash-Large.jpg), url(../images/hero3-unsplash-Large.jpg)*/; /*no-repeat center center */
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    background-size: cover; */
+    background-size: cover;
     background-repeat: repeat-y;
     animation: scrollBackground 10s linear infinite reverse;
 }
@@ -96,7 +96,7 @@ footer {
 }
 
 #hero-text {
-    /* font-size: 130%; */
+    font-size: 130%;
     font-family: Merriweather, sans-serif;
     letter-spacing: 3px;
 
@@ -106,11 +106,12 @@ footer {
     padding-top: 30px;
     padding-left: 10px;
 
-    background-color: rgba(245, 184, 120, .7);
+    background-color: rgba(79, 60, 58, 0.8);
+    border-radius: 2%;
 
     bottom: 30px;
     right: 80px;
     position: absolute;
     text-align: center;
-    color: #fff;
+    color: #fff7d6;
 }
