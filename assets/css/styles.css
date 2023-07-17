@@ -9,24 +9,26 @@
     border: none;
 }
 
-body {
-    font-family: 'Merriweather', serif;
-    font-weight: 300;
+a {
+    text-decoration: none; 
 }
 
-
+body {
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;
+}
 
 h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
 }
 
 header {
-    justify-content: space-between;
+    
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
 }
 
 footer {
@@ -53,7 +55,7 @@ footer {
     padding-right: 100px;
 }
 
-.actve {
+.active {
     border-bottom: 1px solid #323f4e;
 }
 
@@ -65,9 +67,7 @@ footer {
         float: left;
     }
     
-#logo a {
-        text-decoration: none; /* Remove underline for the anchor */
-    }
+
     
 #hero-outer {
     height: 800px;
@@ -79,26 +79,24 @@ footer {
 #hero-image {
     height: 800px;
     width: 100%; 
-    background-image: url(../images/hero-unsplash-sprite1.jpg) /*, url(../images/hero2-unsplash-Large.jpg), url(../images/hero3-unsplash-Large.jpg)*/; /*no-repeat center center */
-    display: flex;
-    flex-direction: column;
+    background-image: url(../images/hero2-unsplash-placeholder.jpg);
     background-size: cover;
-    background-repeat: repeat-y;
-    animation: scrollBackground 20s linear infinite reverse;
+    background-repeat: no-repeat;
+    /* animation: scrollBackground 20s linear infinite reverse; */
 }
 
-@keyframes scrollBackground {
+/* @keyframes scrollBackground {
     0% {
-        background-position: 0 0; /*, 0 0, 0 0;  Add initial background positions for each image */
+        background-position: 0 0;
       }
       100% {
-        background-position: 0 -3240px; /*, 0 -1500px, 0 -1000px;  Adjust the values to control scrolling speed and distance for each image */
+        background-position: 0 -3240px;
       }
-}
+} */
 
 #hero-text {
     font-size: 130%;
-    font-family: Merriweather, sans-serif;
+    /* font-family: Merriweather, sans-serif; */
     letter-spacing: 3px;
 
     /* width: 400px;
@@ -119,14 +117,33 @@ footer {
 
 
 .menu-background {
-    width: 80%;
-    height: 90%;
+    /* width: 100%%;
+    height: 100vh; */
     background-color: aquamarine;
     border: 1px solid #ffff;
-    border-radius: 98%;
-    position: absolute;
+    /* position: relative; */
+
 }
 
+.grid-buy-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.grid-buy-item {
+    width: 300px;
+    height: 400px;
+    /* flex-basis: 33%; */
+}
+
+.grid-buy-item img {
+    max-width: 100%;
+    height: auto;
+}
 
 #footer-nav {
     list-style: none;
@@ -161,3 +178,4 @@ footer {
     margin-bottom: 10px;
     margin-right: 20px;
 }
+
