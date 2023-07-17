@@ -3,21 +3,18 @@
 
 
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     border: none;
-} */
+}
 
 body {
     font-family: 'Merriweather', serif;
     font-weight: 300;
 }
 
-/* a {
-    text-decoration: none;
-    color: #323f4e;
-} */
+
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -84,7 +81,7 @@ footer {
     width: 100%; 
     background-image: url(../images/hero-unsplash-sprite1.jpg) /*, url(../images/hero2-unsplash-Large.jpg), url(../images/hero3-unsplash-Large.jpg)*/; /*no-repeat center center */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-size: cover;
     background-repeat: repeat-y;
     animation: scrollBackground 20s linear infinite reverse;
@@ -119,6 +116,17 @@ footer {
     text-align: center;
     color: #fff7d6;
 }
+
+
+.menu-background {
+    width: 80%;
+    height: 90%;
+    background-color: aquamarine;
+    border: 1px solid #ffff;
+    border-radius: 98%;
+    position: absolute;
+}
+
 
 #footer-nav {
     list-style: none;
