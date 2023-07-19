@@ -30,7 +30,9 @@ header {
 footer {
     height: 300px;
     background-color: #323f4e;
+    overflow: auto;
 }
+
 
 #nav {
     margin: 10% 0;
@@ -152,11 +154,18 @@ footer {
 #footer-bottom {
     display: flex;
     justify-content: space-between;
+    margin: 
+}
+
+#site-footer-left {
+    max-width: 70%;
 }
 
 #payment-icons {
     font-size: 0;
     list-style: none;
+    margin-right: 20px;
+
 }
 
 #payment-icons li {
@@ -164,22 +173,24 @@ footer {
 
 }
 
-/* trustpilot widget on https://codepen.io/himstar/pen/eQzEeg */
+/* trustpilot widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
 
 .trustpilot-widget {
-    background: #E1E2E7;
-    color: #333;
+    /* background: #E1E2E7; */
+    color: #fff;
     padding: 30px 0 25px 0;
     overflow: hidden;
+    margin-right: 20px;
   }
+
   .trustpilot-widget .wrapper-left a {
-    color: #333;
+    color: #fff;
     font-weight: 600;
     text-decoration: underline;
   }
 
   .trustpilot-widget .wrapper-left .title {
-    color: #333;
+    color: #fff;
     font-size: 24px;
     padding: 0;
     margin: 0;
@@ -199,7 +210,7 @@ footer {
   .trustpilot-widget .wrapper-left .brand-logo p {
     font-size: 18px;
     line-height: 35px;
-    color: #333;
+    color: #fff;
     text-align: center;
     display: inline-block;
   }
