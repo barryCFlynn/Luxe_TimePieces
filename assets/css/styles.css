@@ -33,7 +33,6 @@ footer {
     overflow: auto;
 }
 
-
 #nav {
     margin: 10% 0;
 }
@@ -57,8 +56,6 @@ footer {
 #logo {
         width: 300px;
     }
-    
-
     
 #hero-outer {
     height: 800px;
@@ -154,7 +151,6 @@ footer {
 #footer-bottom {
     display: flex;
     justify-content: space-between;
-    margin: 
 }
 
 #site-footer-left {
@@ -173,10 +169,9 @@ footer {
 
 }
 
-/* trustpilot widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
+/* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
 
 .trustpilot-widget {
-    /* background: #E1E2E7; */
     color: #fff;
     padding: 30px 0 25px 0;
     overflow: hidden;
@@ -214,5 +209,7 @@ footer {
     text-align: center;
     display: inline-block;
   }
+
+  /* end trusthostess widget*/
 
   

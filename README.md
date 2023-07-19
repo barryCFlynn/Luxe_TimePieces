@@ -34,4 +34,8 @@ past in header
 headings  | font-family: 'Libre Baskerville', serif;
 text  | font-family: 'Raleway', sans-serif;
 
+copyright
+
+generated using Chat Gpt
+
 
