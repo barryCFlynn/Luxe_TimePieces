@@ -17,19 +17,21 @@ hsv:212.1,0.36,0.31
 hsl:212.1,0.22,0.25
 
 Colour:
-prime: #323f4e rgb: 50, 63, 78, 31
-second: #4F3C3A rgb: 79, 60, 58, 31
-third: #54759C rgb: 84, 117, 156, 61
-fourth: #4A4F2B rgb: 74, 79, 43, 31
-font: #fff7d6
+prime: #323f4e rgb: 50, 63, 78, 31 - medium blue
+second: #161510 - dark brown
+third:#E1E2E7 - off white
+text:#fff - white
+
+
+I found the the colour palet didnt work for me so i looked at a few sites and noticed that they often used a dark contrast to the white and 
 
 ##Fonts
-<style> @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@500&display=swap'); </style>
+past in header
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:wght@200&display=swap" rel="stylesheet"> 
 
-font-family: 'Merriweather', serif; font-family: 'Raleway', sans-serif;
+headings  | font-family: 'Libre Baskerville', serif;
+text  | font-family: 'Raleway', sans-serif;
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@500&display=swap');
-</style>
-font-family: 'Merriweather', serif;
-font-family: 'Raleway', sans-serif;
+

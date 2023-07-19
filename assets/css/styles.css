@@ -1,8 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@500&display=swap')
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +9,13 @@ a {
 }
 
 body {
-    font-family: Merriweather, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    color: #fff;
 }
 
-h1 {
-    font-family: 'Raleway', sans-serif;
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -28,7 +24,7 @@ header {
     
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: #E1E2E7;
 }
 
 footer {
@@ -36,11 +32,8 @@ footer {
     background-color: #323f4e;
 }
 
-
- #nav ul {                        
-    margin-right: 0;
-    padding: 0;
-    display: flex;
+#nav {
+    margin: 10% 0;
 }
 
 #nav li a {
@@ -60,11 +53,7 @@ footer {
 }
 
 #logo {
-
-        display: flex;
         width: 300px;
-        background: transparent;
-        float: left;
     }
     
 
@@ -96,12 +85,9 @@ footer {
 
 #hero-text {
     font-size: 130%;
-    /* font-family: Merriweather, sans-serif; */
     letter-spacing: 3px;
-
     /* width: 400px;
     height: 150px; */
-
     padding-top: 30px;
     padding-left: 10px;
 
@@ -112,37 +98,41 @@ footer {
     right: 80px;
     position: absolute;
     text-align: center;
-    color: #fff7d6;
+    color: #E1E2E7
 }
 
 
 .menu-background {
-    /* width: 100%%;
-    height: 100vh; */
-    background-color: aquamarine;
-    border: 1px solid #ffff;
-    /* position: relative; */
-
+    width: 100%;
+    background-color: #161510;
+    border: 1px solid #ffffff;
 }
 
 .grid-buy-container {
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    background-color: #E1E2E7;
     display: flex;
     justify-content: space-evenly;
     overflow: auto;
     flex-wrap: wrap;
+    margin: 5px 10% 5px 10%;
 }
 
 .grid-buy-item {
     width: 300px;
-    height: 400px;
-    /* flex-basis: 33%; */
+    padding: 10px 30px 10px 30px;
+    color: #161510;
 }
 
 .grid-buy-item img {
     max-width: 100%;
     height: auto;
+}
+
+#footer-top {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 #footer-nav {
@@ -151,18 +141,17 @@ footer {
 }
 
 #footer-nav li {
-    display: inline-block;
-    margin-right: 10px;
+    margin: 10% 20px;
 }
 
 #footer-nav li a {
     text-decoration: none;
-    color: #fff7d6;
+    color: #E1E2E7;
 }
 
-
-#site-footer-right {
-    float: right;
+#footer-bottom {
+    display: flex;
+    justify-content: space-between;
 }
 
 #payment-icons {
@@ -172,10 +161,47 @@ footer {
 
 #payment-icons li {
     float: right;
-    display: flex; */
-    vertical-align: top;
-    margin-top: 70%;
-    margin-bottom: 10px;
-    margin-right: 20px;
+
 }
 
+/* trustpilot widget on https://codepen.io/himstar/pen/eQzEeg */
+
+.trustpilot-widget {
+    background: #E1E2E7;
+    color: #333;
+    padding: 30px 0 25px 0;
+    overflow: hidden;
+  }
+  .trustpilot-widget .wrapper-left a {
+    color: #333;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .trustpilot-widget .wrapper-left .title {
+    color: #333;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .trustpilot-widget .wrapper-left .rating img {
+    max-width: 160px;
+    margin: auto;
+  }
+
+  .trustpilot-widget .wrapper-left .brand-logo img {
+    max-width: 25px;
+    margin: auto;
+    margin-top: -10px;
+    display: inline-block;
+  }
+  .trustpilot-widget .wrapper-left .brand-logo p {
+    font-size: 18px;
+    line-height: 35px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+  }
+
+  
