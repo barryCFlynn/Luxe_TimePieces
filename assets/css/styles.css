@@ -28,6 +28,10 @@ footer {
     overflow: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav {
     margin: 10% 0;
 }
@@ -102,11 +106,13 @@ footer {
     padding: 10px 0;
 }
 
+/* Buy page CSS start*/
+
 .buy-container {
     width: 80%;
     background-color: #E1E2E7;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     overflow: auto;
     flex-wrap: wrap;
     margin: 5px 10% 5px 10%;
@@ -122,6 +128,52 @@ footer {
     max-width: 100%;
     height: auto;
 }
+
+/* Buy page CSS end*/
+
+/* Sell page CSS start*/
+
+.sell-container {
+    width: 80%;
+    background-color: #E1E2E7;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10% 0 10%;
+}
+
+.sell-container h1 {
+    font-size: 200%;
+    padding-top: 20px;
+    color: #323f4e;
+}
+
+#sell-form {
+    border: 3px solid #323f4e;
+    margin: 20px 0 20px 0;
+}
+
+.sell-input {
+    padding: 10px 30px 10px 30px;
+    color: #161510;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.sell-input input {
+    width: 100%;
+    height: 40px;
+    font-size: 100%;
+}
+
+.radio  {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sell page CSS end*/
 
 #footer-top {
     display: flex;
@@ -208,49 +260,5 @@ footer {
   /* end trusthostess widget*/
 
 
-  /* Sell page CSS */
-
-
-
-  .sell-container {
-    width: 80%;
-    background-color: #E1E2E7;
-    display: flex;
-    overflow: auto;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    margin: 0 10% 0 10%;
-}
-
-.sell-container h1 {
-    font-size: 200%;
-    padding-top: 20px;
-    color: #323f4e;
-}
-
-#sell-form {
-    border: 3px solid #323f4e;
-    margin: 20px 0 20px 0;
-}
-
-.sell-input {
-    /* width: 300px; */
-    padding: 10px 30px 10px 30px;
-    color: #161510;
-    font-size: 150%;
-    font-weight: bold;
-}
-
-.sell-input input {
-    width: 100%;
-    height: 40px;
-    font-size: 100%;
-}
-
-.radio  {
-    display: flex;
-    flex-direction: column;
-}
+  
   
