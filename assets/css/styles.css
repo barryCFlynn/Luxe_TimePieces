@@ -212,4 +212,16 @@ footer {
 
   /* end trusthostess widget*/
 
+
+  /* Sell page CSS */
+
+  #sell-container {
+    width: 80%;
+    background-color: #E1E2E7;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin: 5px 10% 5px 10%;
+  }
   
