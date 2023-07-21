@@ -7,6 +7,8 @@ i got the logo from this free source on pinterest: https://www.pinterest.com/pin
 
 ##images
 
+guide on how to create hero image scroll - https://www.w3.org/Style/Examples/007/slideshow.en.html
+
 hero1 - https://unsplash.com/photos/4CsUasi5H-Y
 hero2 - https://unsplash.com/photos/VRERJ5Mjp4c
 

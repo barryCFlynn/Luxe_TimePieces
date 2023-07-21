@@ -55,7 +55,8 @@ a {
 #logo {
         width: 300px;
     }
-    
+
+/* Home page CSS start */
 #hero-outer {
     height: 800px;
     width: 100%;
@@ -100,13 +101,58 @@ a {
 }
 
 
+
+
+/* testing home slide */
+
+#hero-container {
+    background: url(../images/hero-unsplash-bg.webp) no-repeat center center;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    z-index: -1;
+}
+
+#slideset2 {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+#slideset2 > * {
+    position: absolute; 
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: 10s autoplay2 infinite ease-in-out;
+}
+
+/* .slide-img {
+    height: 800px;
+    width: 200px;
+
+} */
+
+@keyframes autoplay2 {
+    0% {top: 100%}
+    8% {top: 50%}
+    66.66% {top: 50%}
+    74.66% {top: -50%}
+    100% {top: -50%}
+}
+
+#slideset2 > *:nth-child(1) {animation-delay: 0s}
+#slideset2 > *:nth-child(2) {animation-delay: 16s}
+#slideset2 > *:nth-child(3) {animation-delay: 16s}
+
+/* Buy page CSS start*/
+
 .menu-background {
     width: 100%;
     background-color: #161510;
     padding: 10px 0;
 }
-
-/* Buy page CSS start*/
 
 .buy-container {
     width: 80%;
