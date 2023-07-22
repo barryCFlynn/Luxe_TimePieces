@@ -39,18 +39,24 @@
             <h3>With Us</h3>
         </div>
     </section> -->
-    <section id="hero-container">  
-        <!-- <div id=slideset2>
+    <section id="hero-container">
+        <div id="hero-text">
+            <h1>Quality TimePieces</h1>
+            <br>
+            <h3>Buy or Sell your Watch</h3>
+            <h3>With Us</h3>
+        </div>  
+        <div id=slideset2>
             <div class="slide-img">
-                <img src="/assets/images/hero1-unsplash-slide.webp" alt="">
+                <img src="/assets/images/bence-balla-schottner-Rm7Qbb1FyQM-unsplash - 2500 cropped.webp" alt="">
             </div>
             <div class="slide-img">
-                <img src="assets/images/hero2-unsplash-slide.webp" alt="">
+                <img src="assets/images/danil-shostak-AChwtt3tBPU-unsplash - 2500.webp" alt="">
             </div>
             <div class="slide-img">
-                <img src="assets/images/hero1-unsplash-slide.webp" alt="">
+                <img src="assets/images/bruno-van-der-kraan-VRERJ5Mjp4c-unsplash - 2500 cropped.webp" alt="">
             </div>
-        </div> -->
+        </div>
     </section>
     <footer>
         <section id="footer-top">
@@ -116,5 +122,19 @@
             </div>
         </section>
     </footer>
+    <script>
+        // JavaScript to handle the slideshow
+        const images = document.querySelectorAll("#slideset2 img");
+        let currentImageIndex = 0;
+
+        function showNextImage() {
+            images[currentImageIndex].style.opacity = 0;
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            images[currentImageIndex].style.opacity = 1;
+            setTimeout(showNextImage, 10000); // Show each image for 10 seconds
+        }
+
+        setTimeout(showNextImage, 10000); // Show the first image for 10 seconds
+    </script>
 </body>
 </html>
