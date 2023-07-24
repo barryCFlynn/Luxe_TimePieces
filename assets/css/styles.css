@@ -23,7 +23,7 @@ header {
 }
 
 footer {
-    height: 300px;
+    height: auto;
     background-color: #323f4e;
     overflow: auto;
 }
@@ -54,6 +54,7 @@ a {
 
 #logo {
         width: 300px;
+        text-decoration: none;
     }
 
 /* Home page CSS start */
@@ -146,13 +147,35 @@ a {
 
 .buy-item {
     width: 300px;
-    padding: 10px 30px 10px 30px;
+    padding: 20px 30px 20px 30px;
     color: #161510;
+    border: 2px solid #161510;
+    margin: 3px;
+}
+
+.buy-item img,
+.buy-item h2,
+.buy-item p,
+.buy-item h4,
+.buy-item h3,
+.buy-item .buy-button {
+  margin-bottom: 10px;
 }
 
 .buy-item img {
     max-width: 100%;
     height: auto;
+    border: 1px solid #323f4e;
+}
+
+.buy-button {
+	background-color: #323f4e;
+	color: white;
+	border-style: outset;
+	border-color: #161510;
+	height: 50px;
+	width: 100px;
+    font-size: 100%;
 }
 
 /* Buy page CSS end*/
@@ -256,6 +279,7 @@ a {
 #footer-nav {
     list-style: none;
     float: left; 
+    display: inline-block;
 }
 
 #footer-nav li {
