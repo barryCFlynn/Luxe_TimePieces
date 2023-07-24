@@ -48,9 +48,9 @@ a {
     padding-right: 100px;
 }
 
-/* .active {
+.active {
     border-bottom: 1px solid #323f4e;
-} */
+}
 
 #logo {
         width: 300px;
@@ -70,23 +70,14 @@ a {
     background-image: url(../images/hero2-unsplash-placeholder.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* animation: scrollBackground 20s linear infinite reverse; */
+
 }
 
-/* @keyframes scrollBackground {
-    0% {
-        background-position: 0 0;
-      }
-      100% {
-        background-position: 0 -3240px;
-      }
-} */
-
-#hero-text {
+/* #hero-text {
     font-size: 130%;
     letter-spacing: 3px;
-    /* width: 400px;
-    height: 150px; */
+    width: 400px;
+    height: 150px;
     padding-top: 30px;
     padding-left: 10px;
     position: fixed;
@@ -98,12 +89,9 @@ a {
     position: absolute;
     text-align: center;
     color: #E1E2E7
-}
+} */
 
-
-
-
-/* testing home slide */
+/* Hero slide */
 
 #hero-container {
     background: url(../images/hero-unsplash-bg.webp) no-repeat center center;
@@ -112,8 +100,6 @@ a {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    /* top: 0;
-    z-index: -1; */
 }
 
 #slideset2 {
@@ -171,14 +157,14 @@ a {
 
 /* Buy page CSS end*/
 
-/* Sell page CSS start*/
+/* Sell/Contact page CSS start*/
 
 .input-container {
     width: 80%;
     background-color: #E1E2E7;
     display: flex;
-    overflow: auto;
-    flex-wrap: wrap;
+    /* overflow: auto; */
+    /* flex-wrap: wrap; */
     align-items: center;
     flex-direction: column;
     margin: 0 10% 0 10%;
@@ -191,6 +177,7 @@ a {
 }
 
 #input-form {
+    width: 60%;
     border: 3px solid #323f4e;
     margin: 20px 0 20px 0;
 }
@@ -198,7 +185,7 @@ a {
 .input {
     padding: 10px 30px 10px 30px;
     color: #161510;
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
 }
 
@@ -208,10 +195,34 @@ a {
     font-size: 100%;
 }
 
-.radio  {
-    /* display: flex;
-    flex-direction: column; */
-    align-items: 
+.radio {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 10px 30px;
+    color: #161510;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.checkbox {
+    padding: 10px 30px 10px 30px;
+    color: #161510;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.select-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-input {
+    font-size: 16px; 
+    padding: 8px; 
+    width: 200px; 
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    color: #161510;
 }
 
 /* Sell page CSS end*/
