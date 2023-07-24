@@ -225,6 +225,26 @@ a {
     color: #161510;
 }
 
+.input-submit {
+	background-color: #323f4e;
+	color: white;
+	border-style: outset;
+	border-color: #161510;
+	height: 50px;
+	width: 100px;
+    margin: 10px 30px 10px 30px;
+    font-size: 100%;
+}
+
+
+.input-submit:hover {
+    background-color: #161510;
+}
+
+
+
+  
+
 /* Sell page CSS end*/
 
 #footer-top {

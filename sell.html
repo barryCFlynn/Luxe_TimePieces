@@ -38,15 +38,15 @@
 
                     <div class="input">
                         <label for="f-name">First Name:</label>
-                        <input type="text" name="fname" id="f-name">
+                        <input type="text" name="fname" id="f-name" required>
                     </div>
                     <div class="input">
                         <label for="l-name">Last Name:</label>
-                        <input type="text" name="lname" id="l-name">
+                        <input type="text" name="lname" id="l-name" required>
                     </div>
                     <div class="input">
                         <label for="e-mail">Email:</label>
-                        <input type="email" name="email" id="e-mail">
+                        <input type="email" name="email" id="e-mail" required>
                     </div>
                     <div class="input">
                         <label for="phone">Phone Number:</label>
@@ -82,7 +82,7 @@
                     </div>   
                     <div class="input">
                         <label for="brand">Watch Brand:</label>
-                        <input type="text" name="watch_brand" id="brand">
+                        <input type="text" name="watch_brand" id="brand" required>
                     </div>  
                     <div class="input">
                         <label for="model">Model / Reference Number:</label>
@@ -94,7 +94,7 @@
                     </div> 
                     <div class="input">
                         <label for="expected">Expected Amount</label>
-                        <input type="text" name="expected_amount" id="expected">
+                        <input type="text" name="expected_amount" id="expected" required>
                     </div> 
                     <div class="checkbox">
                         <label for="paper">
@@ -383,8 +383,8 @@
                             <option value="Phone">Phone</option>
                         </select>
                     </div> 
-                    <div class="input-submit">
-                        <input type="submit" value="Submit">
+                    <div>
+                        <input class="input-submit" type="submit" value="Submit">
                     </div> 
                 </form>
             </div>
