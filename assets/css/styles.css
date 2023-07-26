@@ -133,7 +133,7 @@ a {
 
 .menu-background {
     width: 100%;
-    background-color: #161510;
+    /* background-color: #161510; */
     padding: 10px 0;
 }
 
@@ -151,7 +151,7 @@ a {
     width: 300px;
     padding: 20px 30px 20px 30px;
     color: #161510;
-    border: 2px solid #161510;
+    /* border: 2px solid #161510; */
     margin: 3px;
 }
 
@@ -224,7 +224,7 @@ a {
     color: #323f4e;
 }
 
-#input-form {
+.input-form {
     width: 60%;
     border: 3px solid #323f4e;
     margin: 20px 0 20px 0;
@@ -365,7 +365,7 @@ a {
 
 #about-container {
     width: 80%;
-    background-color: #E1E2E7;
+    /* background-color: #E1E2E7; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -373,18 +373,20 @@ a {
     color: #161510;
 }
 
-#about-us h1 {
-    align-items: center;
-    align-content: center;
-    color: aqua;
-}
 
 #about-us {
+    background-color: #323f4e;
+    color: #E1E2E7;
+    margin: 20px 0 20px;
+    padding: 10px 10px 10px 10px;
 
 }
 
 #warranty {
-
+    background-color: #161510;
+    color: #E1E2E7;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
 }
 
 /* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
