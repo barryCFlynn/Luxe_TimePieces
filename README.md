@@ -1,11 +1,11 @@
-#Luxe TimePieces
+# Luxe TimePieces
 
 
-##credits
+## credits
 
 i got the logo from this free source on pinterest: https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/
 
-##images
+## images
 
 guide on how to create hero image scroll - https://www.w3.org/Style/Examples/007/slideshow.en.html
 
@@ -44,3 +44,25 @@ generated using Chat Gpt
 
 country drop down list povided by danrovito on gitub https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
 
+
+checks
+
+HTML validator - https://validator.w3.org/
+index.html - Document checking completed. No errors or warnings to show.
+buy.html - Document checking completed. No errors or warnings to show.
+sell.html - Document checking completed. No errors or warnings to show.
+about.html - Document checking completed. No errors or warnings to show.
+contact.html - Document checking completed. No errors or warnings to show.
+
+CSS validator - https://jigsaw.w3.org/css-validator/
+style.css - Congratulations! No Error Found.
+
+Lighthouse
+dimensions
+412 X 823
+
+
+
+index
+Mobile
+Desktop
