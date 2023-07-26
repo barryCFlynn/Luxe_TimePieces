@@ -7,7 +7,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    color: #fff;
 }
 
 h1, h2 {
@@ -37,7 +36,6 @@ a {
 }
 
 #nav li a {
-    /* text-decoration: none; */
     color: #323f4e;
 }
 
@@ -56,6 +54,7 @@ a {
         width: 300px;
         text-decoration: none;
     }
+
 
 /* Home page CSS start */
 #hero-outer {
@@ -144,7 +143,7 @@ a {
     justify-content:flex-start;
     overflow: auto;
     flex-wrap: wrap;
-    margin: 5px 10% 5px 10%;
+    margin: 10px 10% 10px 10%;
 }
 
 .buy-item {
@@ -211,11 +210,9 @@ a {
     width: 80%;
     background-color: #E1E2E7;
     display: flex;
-    /* overflow: auto; */
-    /* flex-wrap: wrap; */
     align-items: center;
     flex-direction: column;
-    margin: 0 10% 0 10%;
+    margin: 10px 10% 10px 10%;
 }
 
 .input-container h1 {
@@ -289,10 +286,6 @@ a {
     background-color: #161510;
 }
 
-
-
-  
-
 /* Sell page CSS end*/
 
 #footer-top {
@@ -314,10 +307,6 @@ a {
     font-size: x-small;
     margin-top: 5px;
 }
-
-/* #footer-nav li {
-    margin: 5px 20px;
-} */
 
 #footer-nav li a {
     text-decoration: none;
@@ -365,12 +354,12 @@ a {
 
 #about-container {
     width: 80%;
-    /* background-color: #E1E2E7; */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     margin: 0 10% 0 10%; 
     color: #161510;
+}
+
+#about-container h1 {
+    font-size: 200%;
 }
 
 
