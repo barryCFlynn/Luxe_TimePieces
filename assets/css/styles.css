@@ -360,6 +360,33 @@ a {
 
 }
 
+
+/* About page CSS */
+
+#about-container {
+    width: 80%;
+    background-color: #E1E2E7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10% 0 10%; 
+    color: #161510;
+}
+
+#about-us h1 {
+    align-items: center;
+    align-content: center;
+    color: aqua;
+}
+
+#about-us {
+
+}
+
+#warranty {
+
+}
+
 /* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
 
 .trustpilot-widget {
