@@ -7,6 +7,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    color: #E1E2E7;
 }
 
 h1, h2 {
@@ -73,24 +74,6 @@ a {
 
 }
 
-/* #hero-text {
-    font-size: 130%;
-    letter-spacing: 3px;
-    width: 400px;
-    height: 150px;
-    padding-top: 30px;
-    padding-left: 10px;
-    position: fixed;
-    background-color: rgba(79, 60, 58, 0.8);
-    border-radius: 2%;
-
-    bottom: 30px;
-    right: 80px;
-    position: absolute;
-    text-align: center;
-    color: #E1E2E7
-} */
-
 /* Hero slide */
 
 #hero-container {
@@ -118,7 +101,7 @@ a {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: opacity 3s ease-in-out; /* Add the transition */
+    transition: opacity 3s ease-in-out;
 }
 
 #slideset2 img:first-child {
@@ -127,12 +110,11 @@ a {
 
 #slideset2 img:not(:first-child) {
     display: none; /* Hide other images initially */
-}
+} 
 /* Buy page CSS start*/
 
 .menu-background {
     width: 100%;
-    /* background-color: #161510; */
     padding: 10px 0;
 }
 
@@ -395,7 +377,6 @@ a {
 
   .trustpilot-widget .wrapper-left .title {
     color: #fff;
-    /* font-size: 24px; */
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
