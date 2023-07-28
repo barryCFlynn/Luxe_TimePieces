@@ -61,8 +61,11 @@ Lighthouse
 dimensions
 412 X 823
 
+Respoonsive design resolution breakpoints
+love running - max-width 1200px | 950px | 800px
+
 
 
 index
-Mobile
+Mobile412
 Desktop

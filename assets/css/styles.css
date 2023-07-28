@@ -52,7 +52,8 @@ a {
 }
 
 #logo {
-        width: 300px;
+        max-width: 300px;
+        height: auto;
         text-decoration: none;
     }
 
@@ -65,19 +66,19 @@ a {
     position: relative;
 }
 
-#hero-image {
+/* #hero-image {
     height: 800px;
     width: 100%; 
     background-image: url(../images/hero2-unsplash-placeholder.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
-}
+} */
 
 /* Hero slide */
 
 #hero-container {
-    background: url(../images/hero-unsplash-bg.webp) no-repeat center center;
+    background: url(../images/hero2-unsplash-bg-scaled.webp) no-repeat center center;
     height: 800px;
     width: 100%;
     background-size: cover;
@@ -402,6 +403,45 @@ a {
 
   /* end trusthostess widget*/
 
+  /* Media Queries */
+
+  @media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .input-form {
+        width: 100%;
+        margin: 0;
+    }
+  }
+
+
+
+  /* @media (max-width: 1300px) {
+    .buy-container {
+        width: 100%;
+        margin: 0;
+    }    
+  }
+
+  @media (max-width: 800px) {
+    .buy-form {
+        width: 100%;
+        margin: 0;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .buy-container {
+        width: 100%;
+        margin: 0;
+    }    
+  } */
 
   
   
