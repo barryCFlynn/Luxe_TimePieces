@@ -14,13 +14,13 @@ hero bg - https://unsplash.com/photos/Zkf5HBAbQWc
 hero1 - https://unsplash.com/photos/4CsUasi5H-Y
 hero2 - https://unsplash.com/photos/VRERJ5Mjp4c
 
-##Logo Colours
+## Logo Colours
 rgb: 50, 63, 78
 hex:#323f4e
 hsv:212.1,0.36,0.31
 hsl:212.1,0.22,0.25
 
-Colour:
+## Colour:
 prime: #323f4e rgb: 50, 63, 78, 31 - medium blue
 second: #161510 - dark brown
 third:#E1E2E7 - off white
@@ -29,7 +29,7 @@ text:#fff - white
 
 I found the the colour palet didnt work for me so i looked at a few sites and noticed that they often used a dark contrast to the white and 
 
-##Fonts
+## Fonts
 past in header
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,14 +38,13 @@ past in header
 headings  | font-family: 'Libre Baskerville', serif;
 text  | font-family: 'Raleway', sans-serif;
 
-copyright
+## copyright
 
 generated using Chat Gpt
 
 country drop down list povided by danrovito on gitub https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
 
-
-checks
+## checks
 
 HTML validator - https://validator.w3.org/
 index.html - Document checking completed. No errors or warnings to show.
@@ -57,12 +56,73 @@ contact.html - Document checking completed. No errors or warnings to show.
 CSS validator - https://jigsaw.w3.org/css-validator/
 style.css - Congratulations! No Error Found.
 
+
+
+## Respoonsive design resolution breakpoints
+
+love running - max-width 1200px | 950px | 800px
+
 Lighthouse
 dimensions
 412 X 823
 
-Respoonsive design resolution breakpoints
-love running - max-width 1200px | 950px | 800px
+chatgpt
+
+
+320x568: Used by small smartphones or devices in portrait mode.
+Index - pass
+buy - pass
+contact - pass
+sell - pass
+about - 
+375x667: Used by smartphones like iPhone 6/7/8 in portrait mode.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+360x640: Common resolution for many budget and mid-range smartphones.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+414x896: Found on various iPhone models like iPhone X, XS, 11 Pro, and 12 Pro.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+768x1024: Common resolution for tablets in portrait mode, such as the iPad.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+1024x768: Another common resolution for tablets, especially in landscape mode.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+1280x800: Common resolution for smaller laptops and tablets.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+1366x768: Common for laptops and desktop monitors.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
+1920x1080: Full HD resolution, used on larger monitors, laptops, and some mobile devices.
+Index - 
+buy - 
+contact - 
+sell - 
+about - 
 
 
 
