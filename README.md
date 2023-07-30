@@ -74,55 +74,56 @@ Index - pass
 buy - pass
 contact - pass
 sell - pass
-about - 
+about - pass
+landscape - added media on buy for center after 730 max width
 375x667: Used by smartphones like iPhone 6/7/8 in portrait mode.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - pass
+contact - pass
+sell - pass
+about - pass
 360x640: Common resolution for many budget and mid-range smartphones.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - pass
+contact - pass
+sell - pass
+about - pass
 414x896: Found on various iPhone models like iPhone X, XS, 11 Pro, and 12 Pro.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - pass
+contact - pass
+sell - pass
+about - pass
 768x1024: Common resolution for tablets in portrait mode, such as the iPad.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - pass
+contact - pass
+sell - pass
+about - pass
 1024x768: Another common resolution for tablets, especially in landscape mode.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - spacing on right side issue at 2 items
+contact - pass
+sell - pass
+about - pass
 1280x800: Common resolution for smaller laptops and tablets.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - spacing on right side issue at 2 items
+contact - pass
+sell - pass
+about - pass
 1366x768: Common for laptops and desktop monitors.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - spacing on right side issue at 2 items
+contact - pass
+sell - pass
+about - pass
 1920x1080: Full HD resolution, used on larger monitors, laptops, and some mobile devices.
-Index - 
-buy - 
-contact - 
-sell - 
-about - 
+Index - pass
+buy - spacing on right side issue at 2 items
+contact - pass
+sell - pass
+about - pass
 
 
 
