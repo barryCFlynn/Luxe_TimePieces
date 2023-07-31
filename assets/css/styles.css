@@ -52,13 +52,13 @@ a {
 }
 
 #logo {
-        max-width: 300px;
-        height: auto;
-        text-decoration: none;
-    }
-
+    max-width: 300px;
+    height: auto;
+    text-decoration: none;
+}
 
 /* Home page CSS start */
+
 #hero-outer {
     height: 800px;
     width: 100%;
@@ -66,27 +66,16 @@ a {
     position: relative;
 }
 
-/* #hero-image {
-    height: 800px;
-    width: 100%; 
-    background-image: url(../images/hero2-unsplash-placeholder.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-} */
-
 /* Hero slide */
 
 #hero-container {
-    background: url(../images/hero2-unsplash-bg-scaled.webp) no-repeat center center;
+    background: url(../images/hero-unsplash-bg-scaled.webp) no-repeat center center;
     height: 800px;
     width: 100%;
     background-size: cover;
     position: relative;
     overflow: hidden;
 }
-
-
 
 #slideset2 {
     height: 800px;
@@ -111,7 +100,8 @@ a {
 
 #slideset2 img:not(:first-child) {
     display: none; /* Hide other images initially */
-} 
+}
+
 /* Buy page CSS start*/
 
 .menu-background {
@@ -181,8 +171,6 @@ a {
     background-color: #E1E2E7;
     color: #323f4e;
 }
-
-/* Buy page CSS end*/
 
 /* Sell/Contact page CSS start*/
 
@@ -266,7 +254,7 @@ a {
     background-color: #161510;
 }
 
-/* Sell page CSS end*/
+/* Footer CSS Start*/
 
 #footer-top {
     display: flex;
@@ -321,12 +309,10 @@ a {
     font-size: 0;
     list-style: none;
     margin-right: 20px;
-
 }
 
 #payment-icons li {
     float: right;
-
 }
 
 
@@ -348,7 +334,6 @@ a {
     color: #E1E2E7;
     margin: 20px 0 20px;
     padding: 10px 10px 10px 10px;
-
 }
 
 #warranty {
@@ -365,50 +350,50 @@ a {
     padding: 5px 0 25px 0;
     overflow: hidden;
     margin-right: 20px;
-  }
+}
 
-  .trustpilot-widget .wrapper-left a {
+.trustpilot-widget .wrapper-left a {
     color: #fff;
     font-weight: 600;
     text-decoration: underline;
-  }
+}
 
-  .trustpilot-widget .wrapper-left .title {
+.trustpilot-widget .wrapper-left .title {
     color: #fff;
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
-  }
-  .trustpilot-widget .wrapper-left .rating img {
+}
+
+.trustpilot-widget .wrapper-left .rating img {
     max-width: 160px;
     margin: auto;
-  }
+}
 
-  .trustpilot-widget .wrapper-left .brand-logo img {
+.trustpilot-widget .wrapper-left .brand-logo img {
     max-width: 25px;
     margin: auto;
     margin-top: -10px;
     display: inline-block;
-  }
-  .trustpilot-widget .wrapper-left .brand-logo p {
+}
+
+.trustpilot-widget .wrapper-left .brand-logo p {
     /* font-size: 18px; */
     line-height: 35px;
     color: #fff;
     text-align: center;
     display: inline-block;
-  }
-
-  /* end trusthostess widget*/
+}
 
   /* Media Queries */
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     } 
-  }
+}
 
 @media (max-width: 1300px) {
     .input-container {
@@ -417,48 +402,45 @@ a {
     }
 }
 
-
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
     .input-form {
-        width: 100%;
-        margin: 0;
-    }
-  }
-
-/* buy page */
-  @media (max-width: 1300px) {
-    .buy-container {
-        width: 100%;
-        margin: 0;
-    }    
-  }
-
-  @media (max-width: 1024px) {
-    .buy-container {
-        grid-template-columns: repeat(3, 1fr);
-    }    
-  }
-
-  @media (max-width: 896px) {
-    .buy-container {
-        grid-template-columns: repeat(2, 1fr);
-    }    
-  }
-
-  @media (max-width: 600px) {
-    .buy-container {
-        grid-template-columns: repeat(1, 1fr);
-    }    
-  }
-
-  
-  /* about page */
-  @media (max-width: 1300px) {
-    #about-container {
         width: 100%;
         margin: 0;
     }
 }
 
-  
-  
+/* Media Queries buy page */
+
+@media (max-width: 1300px) {
+    .buy-container {
+        width: 100%;
+        margin: 0;
+    }    
+}
+
+@media (max-width: 1024px) {
+    .buy-container {
+        grid-template-columns: repeat(3, 1fr);
+    }    
+}
+
+@media (max-width: 896px) {
+    .buy-container {
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+@media (max-width: 600px) {
+    .buy-container {
+        grid-template-columns: repeat(1, 1fr);
+    }    
+}
+
+/* about page */
+
+@media (max-width: 1300px) {
+    #about-container {
+        width: 100%;
+        margin: 0;
+    }
+}
