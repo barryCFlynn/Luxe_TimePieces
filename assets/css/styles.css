@@ -302,6 +302,8 @@ a {
 #site-footer-left {
     font-size: small;
     max-width: 70%;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 #payment-icons {
