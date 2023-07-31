@@ -114,7 +114,6 @@ a {
     grid-template-columns: repeat(4, 1fr);
     background-color: #E1E2E7;
     margin: 10px 10% 10px 10%;
-
 }
 
 .buy-item {
@@ -315,7 +314,6 @@ a {
     float: right;
 }
 
-
 /* About page CSS */
 
 #about-container {
@@ -327,7 +325,6 @@ a {
 #about-container h1 {
     font-size: 200%;
 }
-
 
 #about-us {
     background-color: #323f4e;
