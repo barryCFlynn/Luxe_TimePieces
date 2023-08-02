@@ -321,26 +321,50 @@ a {
 #about-container {
     width: 80%;
     margin: 0 10% 0 10%; 
-    color: #161510;
 }
 
 #about-container h1 {
     font-size: 200%;
 }
 
-#about-us {
+#about-wrapper {
     background-color: #323f4e;
     color: #E1E2E7;
     margin: 20px 0 20px;
     padding: 10px 10px 10px 10px;
+
 }
 
-#warranty {
-    background-color: #3C5C68
-    ;
+#founder1-image {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+} 
+
+#founder1-image img {
+    width: 100%;
+}
+
+#warranty-wrapper {
+    background-color: #3C5C68;
     color: #E1E2E7;
     margin-bottom: 20px;
     padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+#warranty {
+    /* overflow: hidden; */
+}
+
+#founder2-image {
+    float: right;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#founder2-image img {
+    width: 100%;
 }
 
 /* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
@@ -441,6 +465,7 @@ a {
 @media (max-width: 1300px) {
     #about-container {
         width: 100%;
-        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }

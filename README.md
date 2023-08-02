@@ -7,14 +7,15 @@ i got the logo from this free source on pinterest: https://www.pinterest.com/pin
 
 ## images
 
-guide on how to create hero image scroll - https://www.w3.org/Style/Examples/007/slideshow.en.html#fcf6ba,
-#b38728,
-#fbf5b7,
-#bf953f
-#000
-#FFFFFF, 
-#06304b
-#cfebfd
+### Hero
+
+### Buy
+
+### about
+
+founder1 - https://unsplash.com/photos/wD1LRb9OeEo
+founder2 - https://unsplash.com/photos/yTsy3PYFPtc
+founder3 - https://unsplash.com/photos/T74mVg__F_k
 
 
 
