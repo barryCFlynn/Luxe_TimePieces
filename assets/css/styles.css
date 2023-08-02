@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #E1E2E7;
+    height: 189px;
 }
 
 footer {
@@ -411,15 +412,23 @@ a {
 
   /* Media Queries */
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
     header {
         flex-direction: column;
         align-items: center;
     } 
 
+    #logo {
+        width: 200px;
+    }
+
+    #nav {
+        margin: 0;
+    }
+
     #nav li {
         display: inline-block;
-        padding: 0;
+        padding: 5px;
     }
 }
 
