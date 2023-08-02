@@ -414,9 +414,13 @@ a {
 @media (max-width: 600px) {
     header {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     } 
+
+    #nav li {
+        display: inline-block;
+        padding: 0;
+    }
 }
 
 @media (max-width: 1300px) {
