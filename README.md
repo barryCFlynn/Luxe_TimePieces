@@ -34,6 +34,18 @@ second: #161510 - dark brown
 third:#E1E2E7 - off white
 text:#fff - white
 
+new colours not in use yet
+
+#365C59 - blue green
+#3C5C66 - alt blue
+#3B365C - purple
+
+![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323f4e)
+![#365C59](https://placehold.it/150x40/365C59/FFFFFF?text=365C59)
+![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
+![#3B365C](https://placehold.it/150x40/3B365C/FFFFFF?text=3B365C)
+![#E1E2E7](https://placehold.it/150x40/E1E2E7/FFFFFF?text=E1E2E7)
+
 
 I found the the colour palet didnt work for me so i looked at a few sites and noticed that they often used a dark contrast to the white and 
 
@@ -66,7 +78,8 @@ style.css - Congratulations! No Error Found.
 
 
 
-## Respoonsive design resolution breakpoints
+## Respoo
+nsive design resolution breakpoints
 
 love running - max-width 1200px | 950px | 800px
 

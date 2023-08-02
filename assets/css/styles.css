@@ -303,7 +303,7 @@ a {
     font-size: small;
     max-width: 70%;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10pxc;
 }
 
 #payment-icons {
@@ -336,7 +336,8 @@ a {
 }
 
 #warranty {
-    background-color: #161510;
+    background-color: #3C5C68
+    ;
     color: #E1E2E7;
     margin-bottom: 20px;
     padding: 10px 10px 10px 10px;
