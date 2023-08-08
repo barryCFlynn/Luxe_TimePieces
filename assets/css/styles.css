@@ -172,7 +172,7 @@ a {
     color: #323f4e;
 }
 
-/* Sell/Contact page CSS start*/
+/* Sell & Contact page CSS start*/
 
 .input-container {
     width: 80%;
@@ -249,7 +249,6 @@ a {
     font-size: 100%;
 }
 
-
 .input-submit:hover {
     background-color: #161510;
 }
@@ -266,7 +265,6 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-
 }
 
 #footer-nav {
@@ -330,15 +328,13 @@ a {
 
 #about-wrapper {
     background-color: #323f4e;
-    color: #E1E2E7;
     margin: 20px 0 20px;
     padding: 10px 10px 10px 10px;
-
 }
 
 #founder1-image {
     float: left;
-    width: 30%;
+    width: 50%;
     margin-right: 10px;
 } 
 
@@ -348,19 +344,13 @@ a {
 
 #warranty-wrapper {
     background-color: #3C5C68;
-    color: #E1E2E7;
     margin-bottom: 20px;
     padding: 10px 10px 10px 10px;
-    overflow: hidden;
-}
-
-#warranty {
-    /* overflow: hidden; */
 }
 
 #founder2-image {
     float: right;
-    width: 30%;
+    width: 50%;
     margin-left: 10px;
 }
 
@@ -403,7 +393,6 @@ a {
 }
 
 .trustpilot-widget .wrapper-left .brand-logo p {
-    /* font-size: 18px; */
     line-height: 35px;
     color: #fff;
     text-align: center;
@@ -473,12 +462,22 @@ a {
     }    
 }
 
-/* about page */
+/* Media Queries about page */
 
 @media (max-width: 1300px) {
     #about-container {
-        width: 100%;
+        width: auto;
         margin-left: 10px;
         margin-right: 10px;
     }
+}
+
+@media (max-width: 610px) {
+    #founder1-image {
+        width: 100%;
+    }    
+
+    #founder2-image {
+        width: 100%;
+    }    
 }
