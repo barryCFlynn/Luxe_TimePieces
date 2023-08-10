@@ -358,6 +358,12 @@ a {
     width: 100%;
 }
 
+/* thanks.html styling */
+
+#thank-you {
+    text-align: center;
+}
+
 /* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
 
 .trustpilot-widget {
