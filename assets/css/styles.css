@@ -70,7 +70,7 @@ a {
 /* Hero slide */
 
 #hero-container {
-    background: url(../images/hero-unsplash-bg-scaled.webp) no-repeat center center;
+    background: url(../images/hero_bg.webp) no-repeat center center;
     height: 800px;
     width: 100%;
     background-size: cover;
@@ -334,7 +334,7 @@ a {
 
 #founder1-image {
     float: left;
-    width: 50%;
+    max-width: 50%;
     margin-right: 10px;
 } 
 
@@ -350,7 +350,7 @@ a {
 
 #founder2-image {
     float: right;
-    width: 50%;
+    max-width: 50%;
     margin-left: 10px;
 }
 
@@ -471,11 +471,13 @@ a {
     }
 
     #founder1-image {
-        width: 100%;
+        max-width: 100%;
+        margin: 0;
     }    
 
     #founder2-image {
-        width: 100%;
+        max-width: 100%;
+        margin: 0;
     }  
 }
 

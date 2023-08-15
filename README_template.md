@@ -117,11 +117,16 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 ## Design
 
 * Colour Scheme
-    * Primary colors used on the website:
+    * Primary colors used on the website, the primary background colour orginiated from the source of the Crown Logo (see credits) I liked it 
+        * Primary Background Colour
 
-    ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323f4e)
-    ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
-    ![#E1E2E7](https://placehold.it/150x40/E1E2E7/000000?text=E1E2E7)
+            ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323f4e)
+        * Secondary Background Colour
+
+            ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
+        * Primary Text and Background Colour
+        
+            ![#E1E2E7](https://placehold.it/150x40/E1E2E7/000000?text=E1E2E7)
 
 * Fonts
     * Raleway font is main font used throughout the site with sans-serif as its fallback font.
@@ -136,19 +141,22 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
  * HTML
  * CSS
  * JavaScript
+ * ChatGPT
 
 ---
 
 ## Frameworks, Libraries & Programs Used
 
- * [VS Code](https://code.visualstudio.com/)
+* [VS Code](https://code.visualstudio.com/)
     * To write the code.
- * [Git](https://git-scm.com/)
+* [Git](https://git-scm.com/)
     * To manage version control.
- * [Github](https://github.com/)
+* [Github](https://github.com/)
     * File Storage and Hosting the website
- * [Google Fonts](https://fonts.google.com/)
+* [Google Fonts](https://fonts.google.com/)
     * Import main font the website.
+* [Chat GPT](https://openai.com/blog/chatgpt)
+    * Only used for troubleshooting, Javascript for the Hero Animation and text for a few sections.
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
 ---
@@ -163,34 +171,28 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ### Validation results
 
 <details>
+<summary>style.css</summary>
+
+Here is some example text that you can replace with your own content. You can add as many lines of text as you need within this section.
+
+You can use **bold** or *italic* formatting, create lists:
+- Item 1
+- Item 2
+- Item 3
+
+And include links: [Visit our website](https://www.example.com)
+
+</details>
+
+<details>
 <summary>index.html
 </summary>
 
 ![Home Page validation result](/assets/images/html-validation.PNG)
-</details>
-<details>
-<summary>gallery.html
-</summary>
 
 ![Gallery validation result](/assets/images/html-validation.PNG)
-</details>
-<details>
-<summary>sign-up.html
-</summary>
 
 ![Sign Up page validation result](/assets/images/html-validation.PNG)
-</details>
-<details>
-<summary>form-received.htmml
-</summary>
-
-![Application Received validation result](/assets/images/html-validation.PNG)
-</details>
-<details>
-<summary>style.css
-</summary>
-
-![CSS validation result](/assets/images/css-validation.PNG)
 </details>
 
 ### Manual Testing
@@ -268,25 +270,6 @@ GitHub Pages used to deploy live version of the website.
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
 5. The page will automatically refresh.
 6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/Lunar-Escape/index.html) in the "GitHub Pages" section.
-
-### Forking the GitHub Repository
-
-By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
-
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
-2. At the top of the Repository(under the main navigation) locate "Fork" button.
-3. Now you should have a copy of the original repository in your GitHub account.
-
-### Local Clone
-
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
-2. Under the repository name click "Clone or download"
-3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone` and then paste The URL copied in the step 3.
-7. Press Enter and your local clone will be created.
-
 ---
 
 ## Credits
