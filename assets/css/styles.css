@@ -48,10 +48,6 @@ a {
     padding-right: 100px;
 }
 
-.active {
-    border-bottom: 1px solid #323f4e;
-}
-
 #logo {
     max-width: 300px;
     height: auto;
@@ -67,7 +63,7 @@ a {
     position: relative;
 }
 
-/* Hero slide */
+/* Hero slideshow, ChatGPT was used to create it */
 
 #hero-container {
     background: url(../images/hero_bg.webp) no-repeat center center;
@@ -366,47 +362,49 @@ a {
 
 /* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
 
-.trustpilot-widget {
+.trusthostess-widget {
     color: #fff;
     padding: 5px 0 25px 0;
     overflow: hidden;
     margin-right: 20px;
 }
 
-.trustpilot-widget .wrapper-left a {
+.trusthostess-widget .wrapper-left a {
     color: #fff;
     font-weight: 600;
     text-decoration: underline;
 }
 
-.trustpilot-widget .wrapper-left .title {
+.trusthostess-widget .wrapper-left .title {
     color: #fff;
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
 }
 
-.trustpilot-widget .wrapper-left .rating img {
+.trusthostess-widget .wrapper-left .rating img {
     max-width: 160px;
     margin: auto;
 }
 
-.trustpilot-widget .wrapper-left .brand-logo img {
+.trusthostess-widget .wrapper-left .brand-logo img {
     max-width: 25px;
     margin: auto;
     margin-top: -10px;
     display: inline-block;
 }
 
-.trustpilot-widget .wrapper-left .brand-logo p {
+.trusthostess-widget .wrapper-left .brand-logo p {
     line-height: 35px;
     color: #fff;
     text-align: center;
     display: inline-block;
 }
 
-  /* Media Queries */
+  /* Media Queries - These are listed in highest width to lowest so you can more identify the CSS affecting*/
 
+
+/* 1300px site containers change margins to take up more or the width */
 @media (max-width: 1300px) {
     .input-container {
         width: auto;
@@ -425,11 +423,31 @@ a {
     }
 }
 
+/* buy.html change the grid columns to 3 */
+
+@media (max-width: 1024px) {
+    .buy-container {
+        grid-template-columns: repeat(3, 1fr);
+    }    
+}
+
+/* sell.html and contact.html reduce H1 size to fit width  */
+
 @media (max-width: 1000px) {
     .input-container h1 {
         font-size: 1.5rem;
     }
 }
+
+/* buy.html change the grid columns to 2 */
+
+@media (max-width: 896px) {
+    .buy-container {
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+/* sell.html and contact.html remove margins for forms to fill the width */
 
 @media (max-width: 800px) {
     .input-form {
@@ -440,6 +458,8 @@ a {
     }
 }
 
+/* sell.html and contact.html reduce H1 size to fit width  */
+
 @media (max-width: 740px) {
     .input-container h1 {
         font-size: 1.2rem;
@@ -449,6 +469,8 @@ a {
         font-size: 0.8rem;
     }
 }
+
+/* header change from a row to a column to fit width */
 
 @media (max-width: 610px) {
     header {
@@ -481,18 +503,6 @@ a {
     }  
 }
 
-@media (max-width: 1024px) {
-    .buy-container {
-        grid-template-columns: repeat(3, 1fr);
-    }    
-}
-
-@media (max-width: 896px) {
-    .buy-container {
-        grid-template-columns: repeat(2, 1fr);
-    }    
-}
-
 @media (max-width: 600px) {
     .buy-container {
         grid-template-columns: repeat(1, 1fr);
@@ -500,15 +510,17 @@ a {
 }
 
 @media (max-width: 420px) {
-    #nav {
-        flex-wrap: wrap;
-    }
-
     #nav li {
         font-size: 0.6rem;
     }
     
     .input-container h1 {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 330px) {
+    #nav li {
+        font-size: 0.5rem;
     }
 }

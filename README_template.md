@@ -52,75 +52,98 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 * They can also navigate to the sell page to provide information on another form to submit.
 
 
-### Existing Features
+### Pages and Sections
 
-* Header
+<details>
+<summary>template</summary>
+</details>
+
+<details>
+<summary>Header & Footer</summary>
+
+- Header
     * It is featured and fixed on all pages.
     * The Logo was a free design found online (See Credits for references) but modified to fit in the company name and also serves as another link to the home page.
     * Includes links to the Home Page, Buy Page, Sell Page, and About Page. 
     * It is identical in design across the pages.
     * Allows easy navigation from page to page.
 
-![Header](assets/images/README-images/header.png)
-
-* Main heading
-    * This is a slide show using Javascript to animate through 4 images
-
-![Hero1](assets/images/hero-unsplash-bg-scaled.webp)
-
-![Hero2](assets/images/bence-balla-schottner-Rm7Qbb1FyQM-unsplash-2500cropped.webp)
-
-![Hero3](assets/images/danil-shostak-AChwtt3tBPU-unsplash-2500.webp)
-
-![Hero4](assets/images/bruno-van-der-kraan-VRERJ5Mjp4c-unsplash-2500-cropped.webp)
-
-* Footer
+    <img src="assets/images/README-images/header.png" alt="Description">
+- Footer
     * Nav bar to add additional navigation options.
     * Links to the social media for Luxe TimePieces will open in a new tab to allow easy navigation for the user.
     * Copyright information
-    * A Trust Hostess section
+    * Trust Hostess section - this is is a fake company modelled off Trust Pilot and the code was contributed.
     * Payment options in the form of SVG images and hover provides text of the option
 
-![Footer](assets/images/README-images/footer.png)
+    <img src="assets/images/README-images/footer.png" alt="Description">
+</details>
+
+<details>
+<summary>Index.html</summary>
+
+* Main Feature
+    * This is a slide show using Javascript to animate through 4 images every 7 seconds.
+
+    <img src="assets\images\README-images\hero_bg_readme.webp" alt="Description" width="300" height="200">
+    <img src="assets\images\README-images\hero_slide1_readme.webp" alt="Description" width="300" height="200">
+    <img src="assets\images\README-images\hero_slide2_readme.webp" alt="Description" width="300" height="200">
+    <img src="assets\images\README-images\hero_slide3_readme.webp" alt="Description" width="300" height="200">
+
+* Testing
+    <details>
+    <summary>Lighthouse Pass</summary>
+
+    * Mobile
+    <img src="assets\images\README-images\" alt="Description">
+
+    * Desktop
+    <img src="assets\images\README-images\" alt="Description">
+    </details>
+    <details>
+    <summary>Lighthouse Pass</summary>
+
+    </details>
+</details>
 
 * Buy Page
     * Shows a number of options in a grid with images, watch information, price and warranties.
     * Each advert has a button that will direct to a form to enquire about a watch.
 
-![Buy](assets/images/README-images/buy.png)
+<img src="assets/images/README-images/buy.png" alt="Description">
 
 * Contact Page
     * This is a form to provide information on contacting for a watch on the buy page. 
     * Numerous questions using an array of inputs including file upload, radio, checkbox, country and select
 
-![Sell](assets/images/README-images/contact.png)
+<img src="assets/images/README-images/contact.png" alt="Description">
 
 * Sell Page
     * This is a form to provide information on selling a watch.
     * Numerous questions using an array of inputs.
 
-![Sell](assets/images/README-images/sell.png)
+<img src="assets/images/README-images/sell.png" alt="Description">
 
 * About Us Page
     * Page provides images of company staff and two section regarding "About Us" and "Warranty" information
 
-![About Us](assets/images/README-images/about-us.png)
+<img src="assets/images/README-images/about-us.png" alt="Description">
 
-![Warranty](assets/images/README-images/warranty.png)
+<img src="assets/images/README-images/warranty.png" alt="Description">
 
 * Thank You Page
     * After filling out either the Contact or Sell forms the submit button will direct to a thank you page with a simple message.
 
-![Thank you](assets/images/README-images/thanks.png)
+<img src="assets/images/README-images/thanks.png" alt="Description">
 
 ---
 ## Design
 
 * Colour Scheme
-    * Primary colors used on the website, the primary background colour orginiated from the source of the Crown Logo (see credits) I liked it 
+    * Primary colors used on the website, the primary background colour orginiated from the source of the Crown Logo (see credits) and decided to incorporate it as the primary background colour. and using a color picking tool found the other remaining colours to provide contrast and compliment each other.
         * Primary Background Colour
 
-            ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323f4e)
+            ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323F4E)
         * Secondary Background Colour
 
             ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
@@ -142,23 +165,26 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
  * CSS
  * JavaScript
  * ChatGPT
+ 
 
 ---
 
 ## Frameworks, Libraries & Programs Used
 
 * [VS Code](https://code.visualstudio.com/)
-    * To write the code.
+    * Code editor.
 * [Git](https://git-scm.com/)
-    * To manage version control.
+    * To manage version control and push updates to GitHub.
 * [Github](https://github.com/)
-    * File Storage and Hosting the website
+    * File Storage and Hosting the website.
 * [Google Fonts](https://fonts.google.com/)
     * Import main font the website.
 * [Chat GPT](https://openai.com/blog/chatgpt)
-    * Only used for troubleshooting, Javascript for the Hero Animation and text for a few sections.
+    * Only used for troubleshooting, Javascript for the Hero Animation and text.
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
+* [Gimp](https://www.gimp.org/)
+    * Image editing program, used on format conversion, image scaling, and image editing.
 ---
 
 ## Testing
@@ -170,19 +196,6 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Validation results
 
-<details>
-<summary>style.css</summary>
-
-Here is some example text that you can replace with your own content. You can add as many lines of text as you need within this section.
-
-You can use **bold** or *italic* formatting, create lists:
-- Item 1
-- Item 2
-- Item 3
-
-And include links: [Visit our website](https://www.example.com)
-
-</details>
 
 <details>
 <summary>index.html
