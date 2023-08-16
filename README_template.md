@@ -63,12 +63,15 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 
 - Header
     * It is featured and fixed on all pages.
+    * used flexbox and position the logo and nav bar.
     * The Logo was a free design found online (See Credits for references) but modified to fit in the company name and also serves as another link to the home page.
     * Includes links to the Home Page, Buy Page, Sell Page, and About Page. 
     * It is identical in design across the pages.
     * Allows easy navigation from page to page.
 
     <img src="assets/images/README-images/header.png" alt="Description">
+
+    Challenges
 - Footer
     * Nav bar to add additional navigation options.
     * Links to the social media for Luxe TimePieces will open in a new tab to allow easy navigation for the user.
@@ -82,7 +85,7 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 <details>
 <summary>Index.html</summary>
 
-* Main Feature
+- Main Feature
     * This is a slide show using Javascript to animate through 4 images every 7 seconds.
 
     <img src="assets\images\README-images\hero_bg_readme.webp" alt="Description" width="300" height="200">
@@ -90,23 +93,36 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
     <img src="assets\images\README-images\hero_slide2_readme.webp" alt="Description" width="300" height="200">
     <img src="assets\images\README-images\hero_slide3_readme.webp" alt="Description" width="300" height="200">
 
-* Testing
+- Challenges
+    * On this page I really wanted to have an animated slide show to grab the attention of the user. I tried using only CSS and HTML to manage it but I could not get it to work. So I resorted to using Chat GPT and JavaScript to pull it off.
+
+- Testing
     <details>
-    <summary>Lighthouse Pass</summary>
+    <summary>Lighthouse PASS</summary>
 
     * Mobile
-    <img src="assets\images\README-images\" alt="Description">
+    <img src="assets\images\README-images\Lh_index_mobile.png" alt="Description">
 
     * Desktop
     <img src="assets\images\README-images\" alt="Description">
     </details>
     <details>
-    <summary>Lighthouse Pass</summary>
+    <summary>W3C Markup Validtor - PASS</summary>
+    <img src="assets\images\README-images\" alt="Description">        
+    </details>
 
+    <details>
+    <summary>W3C CSS Validator - PASS</summary>
+    <img src="assets\images\README-images\" alt="Description">        
+    </details>
+
+    <detailS>
+    <summary>Responsive - PASS</summary>
+    <img src="assets\images\README-images\" alt="Description">        
     </details>
 </details>
 
-* Buy Page
+<!-- * Buy Page
     * Shows a number of options in a grid with images, watch information, price and warranties.
     * Each advert has a button that will direct to a form to enquire about a watch.
 
@@ -134,7 +150,7 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 * Thank You Page
     * After filling out either the Contact or Sell forms the submit button will direct to a thank you page with a simple message.
 
-<img src="assets/images/README-images/thanks.png" alt="Description">
+<img src="assets/images/README-images/thanks.png" alt="Description"> -->
 
 ---
 ## Design
@@ -166,7 +182,6 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
  * JavaScript
  * ChatGPT
  
-
 ---
 
 ## Frameworks, Libraries & Programs Used
