@@ -4,7 +4,7 @@ Luxe TimePieces, we're dedicated to transforming the way watch enthusiasts exper
 
 Navigating the realm of luxury watches can often be daunting, plagued by counterfeits and complex procedures. That's where we step in. We've built Luxe TimePieces to be your trusted partner, a beacon of authenticity in an industry sometimes clouded by uncertainty. Our commitment is to offer a straightforward solution, connecting passionate individuals with the watches they desire without the barriers and complications that can arise elsewhere.
 
-![Am I Responsive](assets/images/README-images/responsive_collage1.png)
+![Am I Responsive](assets/images/README-images/responsive_collage.png)
 
 [View Luxe TimePieces live project here](https://barrycflynn.github.io/Luxe_TimePieces/)
 - - -
@@ -27,7 +27,11 @@ Navigating the realm of luxury watches can often be daunting, plagued by counter
 
 This website is meant to attract people who want to buy or sell Luxury Watches.
 
-There is clear navigation and two forms to allow to enquire on a watch to buy or sell a watch. Each form requests the necessary information to get in contact with the client.
+There is clear navigation bar in the header and footer of every page and in the same location to make it easy to navigate around the site.
+
+There are two forms to allow to enquire to buy a watch or sell a watch. Each form requests the necessary information to get in contact with the client.
+
+There is also an engaging Hero animation on the landing page, and further on the Buy page there is a hover animation on the advert images.
 
 ---
 
@@ -45,31 +49,39 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 ## Features
 
 * This website is targeting people who want to buy or sell luxury watches.
-* They can do that by navigating buy page, choosing a watch they want to buy on and fill out a form to enquire on it.
+* They can do that by navigating to the buy page, choosing a watch they want to buy and fill out the form to enquire on it.
 * They can also navigate to the sell page to provide information on another form to submit.
+* The about page holds essential information on the company and warranties we offer.
 
 ---
 
 ## Design
 
-* Colour Scheme
-    * Primary colors used on the website, the primary background colour orginiated from the source of the Crown Logo (see credits) and decided to incorporate it as the primary background colour. and using a color picking tool found the other remaining colours to provide contrast and compliment each other.
-        * Primary Background Colour
+### Colour Scheme
+* The primary background colour originated from the source of the Crown Logo (see credits) and decided to incorporate it as the primary background colour. Using a color picking tool found the other remaining colours to provide contrast and compliment each other.
+    * Primary Background Colour
 
-            ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323F4E)
-        * Secondary Background Colour
+        ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323F4E)
+    * Secondary Background Colour
 
-            ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
-        * Primary Text and Background Colour
-        
-            ![#E1E2E7](https://placehold.it/150x40/E1E2E7/000000?text=E1E2E7)
+        ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
+    * Primary Text and Background Colour
+    
+        ![#E1E2E7](https://placehold.it/150x40/E1E2E7/000000?text=E1E2E7)
 
-* Fonts
-    * Raleway font is main font used throughout the site with sans-serif as its fallback font.
-    * Libre Baskerville is use on headings and has serif as the fallback font.
+    * Contrast Grid - Only AA and AAA options used.
 
-* Layout
-    * reviewed a number of Watch reseller sites to see what was best practices on layout.
+        <img src="assets\images\README-images\cont_grid.png" alt="Description">
+            
+
+### Fonts
+* 'Raleway' font is main font used throughout the site with 'Sans-serif' as its fallback font.
+* 'Libre Baskerville' is use on headings and has 'Serif' as the fallback font.
+
+### Layout
+* Reviewed a number of Watch reseller sites to see what was best practices on layout. This predominantly a bold Logo and a Hero video or animation on the landing page. The leading to either a single page layout or a multiple page layout. I opted for multiple page, 6 in total to adequately add all the features I was looking for.
+* Each page should follow similar layouts to ease navigation and use.
+
 ---
 
 ## Technologies Used
@@ -96,11 +108,11 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
 * [Gimp](https://www.gimp.org/)
-    * Image editing program, used on format conversion, image scaling, and image editing.
+    * Image editing program, used on format conversion, image scaling, and editing.
 * [Unsplash](https://unsplash.com/)
     * Source of Stock Photos used in Hero slide show
 * [8 Shapes Contrast Grid](contrast-grid.eightshapes.com)
-    * Used to make sure colours were compliant.
+    * Used to make sure colours are compliant.
 * [YouTube](https://www.youtube.com/)
     * Source of guides on Flex Box and Grid
 * [Adobe Color](https://color.adobe.com/create/color-wheel)
@@ -137,30 +149,37 @@ GitHub Pages used to deploy live version of the website.
 
 ## Pages and Sections
 
-Each section below is a collapsing menu that holds the page features, challenges and testing results. Expand each section as needed.
+Each section below is a collapsing menu that holds the page features, challenges and testing results, expand each section as needed.
 
 <details>
 <summary>Header & Footer</summary>
 
-- Header
-    * It is featured and fixed on all pages.
-    * used flexbox and position the logo and nav bar.
-    * The Logo was a free design found online (See Credits for references) but modified to fit in the company name and also serves as another link to the home page.
-    * Includes links to the Home Page, Buy Page, Sell Page, and About Page. 
-    * It is identical in design across the pages.
-    * Allows easy navigation from page to page.
+##  Header
+* It is featured and fixed on all pages.
+* Used flexbox and position the logo and nav bar.
+* The Logo was a free design found online (See Credits for references) but modified to fit in the company name and also serves as another link to the home page.
+* Includes links to the Home Page, Buy Page, Sell Page, and About Page. 
+* It is identical in design across the pages.
+* Allows easy navigation from page to page.
 
     <img src="assets/images/README-images/header.png" alt="Description">
 
-    Challenges
-- Footer
-    * Nav bar to add additional navigation options.
-    * Links to the social media for Luxe TimePieces will open in a new tab to allow easy navigation for the user.
-    * Copyright information
-    * Trust Hostess section - this is is a fake company modelled off Trust Pilot and the code was contributed.
-    * Payment options in the form of SVG images and hover provides text of the option
+##  Challenges
+Learning the use of Flexbox to manage the layout of the elements which also served to be responsive. But ran into a issue below 610px width where the nav bar would break the header. Used Media Queries to change the flex direction to column and moved nav bar from a list to a row. Had to reduce font size lower screen resolutions with media queries.
+
+## Footer
+
+* Nav bar to add additional navigation options.
+* Links to the social media for Luxe TimePieces will open in a new tab to allow easy navigation for the user.
+* Copyright information - Text generated by Chat GPT
+* Trust Hostess section - this is is a fake company modelled off Trust Pilot and the code was contributed.
+* Payment options in the form of SVG images and hover provides text of the option
 
     <img src="assets/images/README-images/footer.png" alt="Description">
+
+##  Challenges
+Learning the use of Flexbox to manage the layout of the elements which also served to be responsive. But there were far more elements to manage and ended up breaking the footer in multiple logical flexbox's. I also learned of SVG files and thought they provided an nice addition as a Accepted Payment method information.
+
 </details>
 
 ---
@@ -178,8 +197,7 @@ Each section below is a collapsing menu that holds the page features, challenges
 <img src="assets\images\README-images\hero_slide3_readme.webp" alt="Description" width="300" height="200">
 
 ## Challenges
-
-* I really wanted to have an animated slide show to grab the attention of the user. I tried using only CSS and HTML to manage it but I could not get it to work. So I resorted to using Chat GPT and JavaScript to pull it off.
+ I really wanted to have an animated slide show to grab the attention of the user. I tried using only CSS and HTML to manage it but I could not get it to work. So I resorted to using Chat GPT and JavaScript to pull it off. The images were all found on Unsplash (See Credits).
 
 ## Testing
 
@@ -230,12 +248,14 @@ Each section below is a collapsing menu that holds the page features, challenges
 
 ## Main Feature
 * A Grid layout to manage each advert, Shows a number of options in a grid with images, watch information, price and warranties.
+* Hover over any of the Images a there is a short zoom animation, controlled with css.
 * Each advert has a button that will direct to a form on contact.html to enquire about a watch this was because I did not know how to setup a shopping cart and thought this was the best option.
+* Information such as Images, pricing and text where provided by manufacturer websites or known 2nd hand luxury watch merchants (See Credits) to give an authentic advert.
 
 <img src="assets/images/README-images/buy.png" alt="Description">
 
 ## Challenges
-* I initially tried using Flex Box but could not get the last row to align left and still maintain the column alignment, in research I found a guide on Grid managed the Ads much betterh easier. And when making it responsive it was easy to add media queries to reduce the columns when is was needed.
+ I initially tried using Flex Box but could not get the last row to align left and still maintain the column alignment, in research I found a guide on Grid which managed the Ads much they way I wanted. And when making it responsive grid did a good job of scaling the columns a bit and it was easy to add media queries to reduce the columns when is was needed.
 
 ## Testing
 <details>
@@ -284,15 +304,15 @@ Each section below is a collapsing menu that holds the page features, challenges
 <summary>Contact.html</summary>
 
 ## Main Feature
-* This is a form to provide information on contacting for a watch on the buy page. This could also later be added as another page on the Nav bar to allow customers to enquire on any watch that we could source for them. Not only on the available adverts. 
-* Numerous questions using an array of inputs including radio, checkbox, Country and select
-* On Submit will direct to thanks.html which is the form submit acknowledgment page
+* This is a form to provide information on contacting for a watch on the buy page. This could also later be added as another page on the Nav bar to allow customers to enquire on any watch that we could source for them. 
+* Numerous questions using an array of inputs including radio, checkbox, Country and select.
+* On Submit will direct to thanks.html which is the form submit acknowledgment page.
 
 
 <img src="assets/images/README-images/contact.png" alt="Description">
 
 ## Challenges
-* I had to come up with a way to finish the site without having the complexities of a shopping cart, I believed another form to allow users to enquire on adverts was a work around. A shopping cart could be added later on.
+I had to come up with a way to finish the site without having the complexities of a shopping cart, I believed another form to allow users to enquire on adverts was a work around. A shopping cart could be added later on and the sell.html form was used as the basis but a number of question removed. This allowed me to keep the same layouts to ease navigation.
 
 ## Testing
 <details>
@@ -342,13 +362,13 @@ Each section below is a collapsing menu that holds the page features, challenges
 
 ## Main Feature
 * This is the main form of the site and serves to provide a way for a user to offer to sell their watch on the site.
-* Numerous questions using an array of inputs.
+* Numerous questions using an array of inputs including file upload, checkbox, radio, country select, email and date of birth.
 * On Submit will direct to thanks.html which is the form submit acknowledgment page
 
 <img src="assets/images/README-images/sell.png" alt="Description">
 
 ## Challenges
-* I really wanted the main form to be a questionnaire on opting to sell a watch, this allowed the use of many input types.
+ I really wanted the main form to be a questionnaire on opting to sell a watch, this allowed the use of many input types to gather the necessary information for sourcing luxury watches from anywhere in the world.
 
 ## Testing
 <details>
@@ -404,7 +424,7 @@ Each section below is a collapsing menu that holds the page features, challenges
 <img src="assets/images/README-images/warranty.png" alt="Description">
 
 ## Challenges
-* Getting the Images to flow correctly at different resolutions.
+ Getting the Images to flow correctly at different resolutions, starting using a flexbox to manage the responsiveness but found the it worked better without it. Just using Float and fixed width scaled the image nicely and only had to change the layout at 610px width to have the image appear above the text.
 ## Testing
 <details>
 <summary>Lighthouse  -  PASS</summary>
@@ -457,7 +477,8 @@ Each section below is a collapsing menu that holds the page features, challenges
 <img src="assets/images/README-images/thanks.png" alt="Description">
 
 ## Challenges
-* Getting the Images to flow correctly at different resolutions.
+Getting the forms to direct to the page took a lot of research. as in previous lessons we were shown the method="post" but this gave me an error. After discovery I tried changing this to "get" and the forms for sell.html and contact.html worked correctly.
+
 ## Testing
 <details>
 <summary>Lighthouse  -  PASS</summary>
@@ -503,17 +524,19 @@ Each section below is a collapsing menu that holds the page features, challenges
 
 ## Credits
 
-### Content
-
- * Logo Design from Creator PNG SHare (https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/)
- * [Unsplash](https://unsplash.com/) The internet’s source for visuals.
+* [PNG Share on Pinterest](https://www.pinterest.com/pin/crown-png-logo-hd-png-download--678073287641478431/) Logo Design from Creator PNG Share, this served as the logo after editing to add the company name and the source of primary colour for the site.
+* [Edward Castano on Code Pen](https://codepen.io/edcastano/pen/rLoqxo) Code Pen Trust Pilot Footer element
+    * Modified further by simplifying the code which had a carousel and renaming to Trust Hostess to demonstrate for the project.
+* [Unsplash](https://unsplash.com/) The internet’s source for visuals.
     * hero_bg - https://unsplash.com/photos/Zkf5HBAbQWc
     * hero_slide1 - https://unsplash.com/photos/Rm7Qbb1FyQM
     * hero_slide2 - https://unsplash.com/photos/AChwtt3tBPU
     * hero_slide3 - https://unsplash.com/photos/VRERJ5Mjp4c
     * founder1 - https://unsplash.com/photos/wD1LRb9OeEo
     * founder2 - https://unsplash.com/photos/yTsy3PYFPtc
-* [Danrovito](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a) Country Select input on contact.html and sell.html found this repository to help.
+* Watch images and information was sourced either from watch manufacturer website or [Pride & Pinion](https://prideandpinion.com/)
+* [Danrovito on GitHub](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a) Country Select input on contact.html and sell.html found this repository to help.
+* 
 ---
 
 ## Acknowledgements
