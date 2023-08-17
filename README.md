@@ -10,27 +10,20 @@ Navigating the realm of luxury watches can often be daunting, plagued by counter
 - - -
 ## Table of Contents
 
-### [User Experience (UX)](#user-experience-ux-1)
-* [User Stories](#user-stories)
-### [Features](#features)
-* [Existing Features](#existing-features)
-### [Features Left to Implement](#features-left-to-implement-1)
+### [User Experience](#user-experience-1)
+### [User Stories](#user-stories-1)
+### [Features](#features-1)
 ### [Design](#design-1)
 ### [Technologies Used](#technologies-used-1)
-### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+### [Sites & Programs Used](#sites--programs-used-1)
 ### [Testing](#testing-1)
-* [Validation Results](#validation-results)
-* [Manual Testing](#manual-testing)
-* [Lighthouse Report](#lighthouse-report)
 ### [Deployment and local development](#deployment-and-local-development-1)
-* [GitHub Pages](#github-pages)
-* [Forking the GitHub Repository](#forking-the-github-repository)
-* [Local Clone](#local-clone)
+### [Pages and Sections](#pages-and-sections-1)
 ### [Credits](#credits-1)
 ### [Acknowledgements](#acknowledgements-1)
 ---
 
-## User Experience (UX)
+## User Experience
 
 This website is meant to attract people who want to buy or sell Luxury Watches.
 
@@ -133,65 +126,18 @@ There is clear navigation and two forms to allow to enquire on a watch to buy or
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository Luxe TimePieces](https://barrycflynn.github.io/Luxe_TimePieces/)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
 5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/Lunar-Escape/index.html) in the "GitHub Pages" section.
+6. Scroll back to locate the now-published site [link](https://barrycflynn.github.io/Luxe_TimePieces/) in the "GitHub Pages" section.
+
+---
 
 ## Pages and Sections
 
-<details>
-<summary>Template</summary>
-
-## Main Feature
-* 
-## Challenges
-* 
-## Testing
-<details>
-<summary>Lighthouse  -  PASS</summary>
-
-* Mobile
-
-    <img src="assets\images\README-images\lh_index_mobile.png" alt="Description" width="600" height="200">
-
-* Desktop
-
-    <img src="assets\images\README-images\lh_index_desktop.png" alt="Description" width="600" height="200">
-</details>
-
-<details>
-<summary>W3C Markup Validtor - PASS</summary>
-    <img src="assets\images\README-images\html_valid_buy.png" alt="Description">        
-</details>
-
-<details>
-<summary>W3C CSS Validator - PASS</summary>
-<img src="assets\images\README-images\css_valid_index.png" alt="Description">        
-</details>
-
-<detailS>
-<summary>Responsive - PASS</summary>
-
-* Resolutions checked
-
-    - 320x568: Used by small smartphones or devices in portrait mode.
-    - 375x667: Used by smartphones like iPhone 6/7/8 in portrait mode.
-    - 360x640: Common resolution for many budget and mid-range smartphones.
-    - 414x896: Found on various iPhone models like iPhone X, XS, 11 Pro, and 12 Pro.
-    - 768x1024: Common resolution for tablets in portrait mode, such as the iPad.
-    - 1024x768: Another common resolution for tablets, especially in landscape mode.
-    - 1280x800: Common resolution for smaller laptops and tablets.
-    - 1366x768: Common for laptops and desktop monitors.
-    - 1920x1080: Full HD resolution, used on larger monitors, laptops, and some mobile   devices.
-    
-</details>
-</details>
-
-
-
+Each section below is a collapsing menu that holds the page features, challenges and testing results. Expand each section as needed.
 
 <details>
 <summary>Header & Footer</summary>
@@ -216,6 +162,8 @@ GitHub Pages used to deploy live version of the website.
 
     <img src="assets/images/README-images/footer.png" alt="Description">
 </details>
+
+---
 
 <details>
 
@@ -275,6 +223,8 @@ GitHub Pages used to deploy live version of the website.
 </details>
 </details>
 
+---
+
 <details>
 <summary>Buy.html</summary>
 
@@ -327,6 +277,8 @@ GitHub Pages used to deploy live version of the website.
     
 </details>
 </details>
+
+---
 
 <details>
 <summary>Contact.html</summary>
@@ -383,6 +335,8 @@ GitHub Pages used to deploy live version of the website.
 </details>
 </details>
 
+---
+
 <details>
 <summary>Sell.html</summary>
 
@@ -437,6 +391,8 @@ GitHub Pages used to deploy live version of the website.
 </details>
 </details>
 
+---
+
 <details>
 <summary>About.html</summary>
 
@@ -489,6 +445,8 @@ GitHub Pages used to deploy live version of the website.
     
 </details>
 </details>
+
+---
 
 <details>
 <summary>Thanks.html</summary>
