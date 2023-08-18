@@ -509,17 +509,19 @@ a {
     }    
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     #nav li {
         font-size: 0.6rem;
     }
     
     .input-container h1 {
         font-size: 0.9rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
     #nav li {
         font-size: 0.5rem;
     }
