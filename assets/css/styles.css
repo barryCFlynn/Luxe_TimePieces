@@ -1,3 +1,5 @@
+/* site wide CSS start */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,21 +18,17 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Header CSS Start */
+
 header {
     display: flex;
     justify-content: space-between;
     background-color: #E1E2E7;
     height: 189px;
-}
-
-footer {
-    height: auto;
-    background-color: #323f4e;
-    overflow: auto;
-}
-
-a {
-    text-decoration: none;
 }
 
 #nav {
@@ -63,7 +61,7 @@ a {
     position: relative;
 }
 
-/* Hero slideshow, ChatGPT was used to create it */
+/* Hero slideshow CSS Start*/
 
 #hero-container {
     background: url(../images/hero_bg.webp) no-repeat center center;
@@ -249,7 +247,62 @@ a {
     background-color: #161510;
 }
 
+/* About page CSS start */
+
+#about-container {
+    width: 80%;
+    margin: 0 10% 0 10%; 
+}
+
+#about-container h1 {
+    font-size: 2rem;
+}
+
+#about-wrapper {
+    background-color: #323f4e;
+    margin: 20px 0 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#founder1-image {
+    float: left;
+    max-width: 50%;
+    margin-right: 10px;
+} 
+
+#founder1-image img {
+    width: 100%;
+}
+
+#warranty-wrapper {
+    background-color: #3C5C68;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#founder2-image {
+    float: right;
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+#founder2-image img {
+    width: 100%;
+}
+
+/* thanks.html CSS Start */
+
+#thank-you {
+    text-align: center;
+}
+
 /* Footer CSS Start*/
+
+footer {
+    height: auto;
+    background-color: #323f4e;
+    overflow: auto;
+}
 
 #footer-top {
     display: flex;
@@ -309,55 +362,6 @@ a {
 
 #payment-icons li {
     float: right;
-}
-
-/* About page CSS */
-
-#about-container {
-    width: 80%;
-    margin: 0 10% 0 10%; 
-}
-
-#about-container h1 {
-    font-size: 2rem;
-}
-
-#about-wrapper {
-    background-color: #323f4e;
-    margin: 20px 0 20px;
-    padding: 10px 10px 10px 10px;
-}
-
-#founder1-image {
-    float: left;
-    max-width: 50%;
-    margin-right: 10px;
-} 
-
-#founder1-image img {
-    width: 100%;
-}
-
-#warranty-wrapper {
-    background-color: #3C5C68;
-    margin-bottom: 20px;
-    padding: 10px 10px 10px 10px;
-}
-
-#founder2-image {
-    float: right;
-    max-width: 50%;
-    margin-left: 10px;
-}
-
-#founder2-image img {
-    width: 100%;
-}
-
-/* thanks.html styling */
-
-#thank-you {
-    text-align: center;
 }
 
 /* trusthostess widget modified and found on https://codepen.io/himstar/pen/eQzEeg */
@@ -505,16 +509,22 @@ a {
     }  
 }
 
+/* buy.html change the grid columns to 1 */
+
 @media (max-width: 600px) {
     .buy-container {
         grid-template-columns: repeat(1, 1fr);
     }    
 }
 
+/* header reduce nav bar font to fit width  */
+
 @media (max-width: 480px) {
     #nav li {
         font-size: 0.6rem;
     }
+    
+ /* Form headings reduce font to fot and add padding */
     
     .input-container h1 {
         font-size: 0.9rem;
@@ -522,6 +532,8 @@ a {
         padding-right: 10px;
     }
 }
+
+/* header reduce nav bar font to fit width  */
 
 @media (max-width: 350px) {
     #nav li {
