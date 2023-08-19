@@ -40,7 +40,7 @@
         <div class="menu-background">
             <div class="input-container">  
                 <h1>Enquire to Sell your watch</h1> <!--Start of sell form-->
-                <form class="input-form" name="form_sell" action="thanks.html" method="get">
+                <form class="input-form" name="form_sell" action="thanks.html">
 
                     <div class="input">
                         <label for="f-name">First Name:</label>
@@ -132,7 +132,7 @@
                     </div> 
                     <div class="input select-box">
                         <label for="country">Country of origin:</label>
-                        <select class="select-input" name="country" id="country">
+                        <select class="select-input" name="country" id="country" required>
                             <!-- list provided by danrovito on github see credits -->
                             <option value="">Please Select</option>
                             <option value="Afghanistan">Afghanistan</option>
@@ -383,7 +383,7 @@
                     </div>
                     <div class="input select-box">
                         <label for="contact_method">Preferred method of contact:</label>
-                        <select class="select-input" name="contact-method" id="contact_method">
+                        <select class="select-input" name="contact-method" id="contact_method" required>
                             <option value="">Please Select</option>
                             <option value="Email">Email</option>
                             <option value="Phone">Phone</option>

@@ -13,12 +13,12 @@ Navigating the realm of luxury watches can often be daunting, plagued by counter
 ### [User Experience](#user-experience-1)
 ### [User Stories](#user-stories-1)
 ### [Features](#features-1)
+### [Manual Testing](#manual-testing-1)
+### [Pages and Sections](#pages-and-sections-1)
 ### [Design](#design-1)
 ### [Technologies Used](#technologies-used-1)
 ### [Sites & Programs Used](#sites--programs-used-1)
-### [Testing](#testing-1)
 ### [Deployment and local development](#deployment-and-local-development-1)
-### [Pages and Sections](#pages-and-sections-1)
 ### [Credits](#credits-1)
 ### [Acknowledgements](#acknowledgements-1)
 ---
@@ -55,101 +55,20 @@ There is also an engaging Hero animation on the landing page, and further on the
 
 ---
 
-## Design
-
-### Colour Scheme
-* The primary background colour originated from the source of the Crown Logo (see credits) and decided to incorporate it as the primary background colour. Using a color picking tool found the other remaining colours to provide contrast and compliment each other.
-    * Primary Background Colour
-
-        ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323F4E)
-    * Secondary Background Colour
-
-        ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
-    * Primary Text and Background Colour
-    
-        ![#E1E2E7](https://placehold.it/150x40/E1E2E7/000000?text=E1E2E7)
-
-    * Contrast Grid - Only AA and AAA options used.
-
-        <img src="assets\images\README-images\cont_grid.png" alt="Description">
-            
-
-### Fonts
-* 'Raleway' font is main font used throughout the site with 'Sans-serif' as its fallback font.
-* 'Libre Baskerville' is use on headings and has 'Serif' as the fallback font.
-
-### Layout
-* Reviewed a number of Watch reseller sites to see what was best practices on layout. This predominantly a bold Logo and a Hero video or animation on the landing page. The leading to either a single page layout or a multiple page layout. I opted for multiple page, 6 in total to adequately add all the features I was looking for.
-* Each page should follow similar layouts to ease navigation and use.
-
----
-
-## Technologies Used
-
- * HTML
- * CSS
- * JavaScript
- * ChatGPT
- 
----
-
-## Sites & Programs Used
-
-* [VS Code](https://code.visualstudio.com/)
-    * Code editor.
-* [Git](https://git-scm.com/)
-    * To manage version control and push updates to GitHub.
-* [Github](https://github.com/)
-    * File Storage and Hosting the website.
-* [Google Fonts](https://fonts.google.com/)
-    * Import main font the website.
-* [Chat GPT](https://openai.com/blog/chatgpt)
-    * Only used for troubleshooting, Javascript for the Hero Animation and text.
-* [Am I Responsive](https://ui.dev/amiresponsive)
-    * Mockup picture for the README file.
-* [Gimp](https://www.gimp.org/)
-    * Image editing program, used on format conversion, image scaling, and editing.
-* [Unsplash](https://unsplash.com/)
-    * Source of Stock Photos used in Hero slide show
-* [8 Shapes Contrast Grid](contrast-grid.eightshapes.com)
-    * Used to make sure colours are compliant.
-* [YouTube](https://www.youtube.com/)
-    * Source of guides on Flex Box and Grid
-* [Adobe Color](https://color.adobe.com/create/color-wheel)
-    * Used to select colours on the site
-* [Pinterest](https://www.pinterest.ie/)
-    * Source of Logo Design
-
----
-
-## Testing
+## Manual Testing
 
 * The website was tested on Google Chrome and Microsoft Edge.
 * The website was viewed on various monitors and resolutions and on a Pixel 7 mobile phone.
 * Vigorous testing was done on links to ensure navigation between pages work correctly.
 * Chrome Dev Tools was used to test how the site looks on various screen sizes.
-* Light House was used to check performance on every page.
-* The W3C validators for HTML and CSS were used on every page to ensure the code meets industry requirements.
-
----
-
-## Deployment and local development
-
-### GitHub Pages
-
-GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Luxe TimePieces](https://barrycflynn.github.io/Luxe_TimePieces/)
-2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
-3. Scroll down the Settings page until you locate "GitHub Pages".
-4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
-5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://barrycflynn.github.io/Luxe_TimePieces/) in the "GitHub Pages" section.
 
 ---
 
 ## Pages and Sections
 
-Each section below is a collapsing menu that holds the page features, challenges and testing results, expand each section as needed.
+Each section below is a collapsing menu that holds the page features, challenges and testing results. 
+
+Expand each section as needed.
 
 <details>
 <summary>Header & Footer</summary>
@@ -521,6 +440,85 @@ Getting the forms to direct to the page took a lot of research. as in previous l
 </details>
 
 ---
+## Design
+
+### Colour Scheme
+* The primary background colour originated from the source of the Crown Logo (see credits) and decided to incorporate it as the primary background colour. Using a color picking tool found the other remaining colours to provide contrast and compliment each other.
+    * Primary Background Colour
+
+        ![#323F4E](https://placehold.it/150x40/323f4e/FFFFFF?text=323F4E)
+    * Secondary Background Colour
+
+        ![#3C5C66](https://placehold.it/150x40/3C5C66/FFFFFF?text=3C5C66)
+    * Primary Text and Background Colour
+    
+        ![#E1E2E7](https://placehold.it/150x40/E1E2E7/000000?text=E1E2E7)
+
+    * Contrast Grid - Only AA and AAA options used.
+
+        <img src="assets\images\README-images\cont_grid.png" alt="Description">
+            
+
+### Fonts
+* 'Raleway' font is main font used throughout the site with 'Sans-serif' as its fallback font.
+* 'Libre Baskerville' is use on headings and has 'Serif' as the fallback font.
+
+### Layout
+* Reviewed a number of Watch reseller sites to see what was best practices on layout. This predominantly a bold Logo and a Hero video or animation on the landing page. Leading to either a single page layout or a multiple page layout. I opted for multiple page, 6 in total to adequately add all the features I was looking for.
+* Each page should follow similar layouts to ease navigation and use.
+
+---
+
+## Technologies Used
+
+ * HTML
+ * CSS
+ * JavaScript
+ * ChatGPT
+ 
+---
+
+## Sites & Programs Used
+
+* [VS Code](https://code.visualstudio.com/)
+    * Code editor.
+* [Git](https://git-scm.com/)
+    * To manage version control and push updates to GitHub.
+* [Github](https://github.com/)
+    * File Storage and Hosting the website.
+* [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Chat GPT](https://openai.com/blog/chatgpt)
+    * Only used for troubleshooting, Javascript for the Hero Animation and text.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+* [Gimp](https://www.gimp.org/)
+    * Image editing program, used on format conversion, image scaling, and editing.
+* [Unsplash](https://unsplash.com/)
+    * Source of Stock Photos used in Hero slide show
+* [8 Shapes Contrast Grid](contrast-grid.eightshapes.com)
+    * Used to make sure colours are compliant.
+* [YouTube](https://www.youtube.com/)
+    * Source of guides on Flex Box and Grid
+* [Adobe Color](https://color.adobe.com/create/color-wheel)
+    * Used to select colours on the site
+* [Pinterest](https://www.pinterest.ie/)
+    * Source of Logo Design
+
+
+## Deployment and local development
+
+### GitHub Pages
+
+GitHub Pages used to deploy live version of the website.
+1. Log in to GitHub and locate [GitHub Repository Luxe TimePieces](https://barrycflynn.github.io/Luxe_TimePieces/)
+2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
+3. Scroll down the Settings page until you locate "GitHub Pages".
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+5. The page will automatically refresh.
+6. Scroll back to locate the now-published site [link](https://barrycflynn.github.io/Luxe_TimePieces/) in the "GitHub Pages" section.
+
+---
 
 ## Credits
 
@@ -536,7 +534,7 @@ Getting the forms to direct to the page took a lot of research. as in previous l
     * founder2 - https://unsplash.com/photos/yTsy3PYFPtc
 * Watch images and information was sourced either from watch manufacturer website or [Pride & Pinion](https://prideandpinion.com/)
 * [Danrovito on GitHub](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a) Country Select input on contact.html and sell.html found this repository to help.
-* 
+
 ---
 
 ## Acknowledgements

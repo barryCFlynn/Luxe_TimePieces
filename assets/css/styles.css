@@ -491,7 +491,9 @@ a {
         padding: 5px;
         font-size: 0.8rem;
     }
-
+    
+    /* about.html change images to span the width of the container */
+    
     #founder1-image {
         max-width: 100%;
         margin: 0;
