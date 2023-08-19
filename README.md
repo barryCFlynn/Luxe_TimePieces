@@ -396,7 +396,7 @@ I had to come up with a way to finish the site without having the complexities o
 <img src="assets/images/README-images/thanks.png" alt="Description">
 
 ## Challenges
-Getting the forms to direct to the page took a lot of research. as in previous lessons we were shown the method="post" but this gave me an error. After discovery I tried changing this to "get" and the forms for sell.html and contact.html worked correctly.
+Getting the forms to direct to the page took a lot of research. As in previous lessons we were shown the method="post" but this gave me an error. After research I got it working by removing the "method" attribute completely. 
 
 ## Testing
 <details>
